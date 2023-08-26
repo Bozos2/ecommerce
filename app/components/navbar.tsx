@@ -30,8 +30,8 @@ const Navbar = () => {
   return (
     <>
       {!isHomePage ? (
-        <header className=" sticky left-0 top-0 w-full">
-          <nav className="max-w-full m-auto  flex justify-between items-center p-4 xl:px-24  text-white bg-sky-700">
+        <header className=" sticky left-0 top-0 w-full ">
+          <nav className="max-w-full m-auto  flex justify-between items-center p-6 rounded-b-xl shadow-2xl xl:px-24 lg:p-2  text-white bg-sky-700">
             <h1 className="text-4xl font-bold cursor-pointer">HomeDecor</h1>
 
             <ul className="hidden lg:flex justify-center">

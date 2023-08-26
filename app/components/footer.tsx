@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useRef } from "react";
 
 import LinkedinSVG from "../assets/FooterIcons/Linkedin";
 import TwitterSVG from "../assets/FooterIcons/Twitter";
@@ -7,6 +8,18 @@ import FacebookSVG from "../assets/FooterIcons/Facebook";
 import InstagramSVG from "../assets/FooterIcons/Instagram";
 
 const Footer = () => {
+  const EmailinputRef = useRef<HTMLInputElement>(null);
+
+  const submitHandler = (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const enteredText = EmailinputRef.current!.value;
+
+    if (enteredText.trim().length === 0) {
+      return;
+    }
+  };
+
   return (
     <footer className="flex justify-around flex-col text-white bg-sky-700">
       <div className="flex flex-row justify-around p-4 lg:p-16">
@@ -62,8 +75,22 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col items-center  bg-sky-950 w-full">
-        <div className=" pt-2">
-          <h2>Newsletter Subscription</h2>
+        <div className="flex flex-col justify-center pt-2">
+          <label htmlFor="email" className="text-center pb-2">
+            Newsletter Subscription
+          </label>
+          <div className="flex">
+            <input
+              type="email"
+              id="email"
+              placeholder="example@gmail.com"
+              ref={EmailinputRef}
+              className="h-8 w-44 p-2 border rounded-l text-sm text-sky-700 sm:h-10 sm:w-64 sm:text-base focus:outline-none focus:border-sky-700"
+            />
+            <button className="h-8 p-1 text-sm sm:text-base bg-sky-700  rounded-r sm:h-10 sm:p-2">
+              Subscribe
+            </button>
+          </div>
         </div>
         <div className="flex flex-row gap-2 py-4 hover:cursor-pointer">
           <LinkedinSVG />

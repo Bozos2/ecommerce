@@ -1,6 +1,6 @@
 "use-client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Avatar from "react-avatar";
 
@@ -14,14 +14,29 @@ import avatar from "../assets/woman-avatar.jpg";
 
 const HomeNavbar = () => {
   const [nav, setNav] = useState<boolean>(false);
+  const [color, setColor] = useState<string>("transparent");
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor("#0369a1");
+      } else {
+        setColor("transparent");
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
+
   return (
-    <header className="fixed left-0 top-0 w-full z-10 ">
-      <nav className="max-w-full m-auto  flex justify-between items-center p-4 xl:px-24  text-white">
+    <header
+      style={{ backgroundColor: `${color}` }}
+      className="fixed left-0 top-0 w-full z-10 rounded-b-xl"
+    >
+      <nav className="max-w-full m-auto  flex justify-between items-center  p-4  xl:px-24 lg:p-2 text-white">
         <h1 className="text-4xl font-bold cursor-pointer">HomeDecor</h1>
 
         <ul className="hidden lg:flex justify-center">
