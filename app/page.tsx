@@ -1,7 +1,7 @@
 import Home from "./(router)/home/page";
 const Page = () => {
   return (
-    <main className=" min-h-screen ">
+    <main className=" min-h-screen">
       <Home />
     </main>
   );

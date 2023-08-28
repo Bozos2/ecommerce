@@ -1,16 +1,13 @@
-"use-client";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Nunito } from "next/font/google";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
-const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal"],
+const nunito = Nunito({
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
-  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -24,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.variable}`}>
+    <html lang="en" className={`${nunito.className}`}>
       <body>
         <Navbar />
         <main>{children}</main>

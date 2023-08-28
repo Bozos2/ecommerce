@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex flex-row justify-around p-4 lg:p-16">
         <div className="hidden lg:flex flex-col w-96">
           <h1 className="text-bold text-4xl pb-2">About us</h1>
-          <p>
+          <p className="text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             tempus, est tincidunt venenatis luctus, lacus sem volutpat arcu, at
             viverra dolor ipsum in mauris. Cras non neque nulla. Sed vitae erat
@@ -33,13 +33,9 @@ const Footer = () => {
           </p>
         </div>
         <div className=" flex flex-col ">
-          <h2 className="text-bold text-xl pb-1 lg:text-2xl">Quick Links</h2>
-          <Link
-            href="/products"
-            className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
-          >
-            Products
-          </Link>
+          <h2 className="text-bold text-xl  mb-2 border-b-2 lg:text-2xl">
+            Quick Links
+          </h2>
           <Link
             href="/home"
             className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
@@ -47,31 +43,44 @@ const Footer = () => {
             Home
           </Link>
           <Link
+            href="/products"
+            className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
+          >
+            Products
+          </Link>
+
+          <Link
             href="/sales"
             className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
           >
             Sales
           </Link>
           <Link
-            href="/about"
+            href="/news"
             className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
           >
             News
           </Link>
           <Link
-            href="/about"
+            href="/contact"
             className="text-center font-light text-sm lg:text-lg hover:text-zinc-400 hover:underline"
           >
             Contact
           </Link>
         </div>
         <div className=" flex flex-col text-center">
-          <h2 className="text-bold text-xl pb-1 lg:text-2xl">Contact Info</h2>
-          <p className="text-center font-light text-sm">London 88220</p>
-          <p className="font-light text-sm">+123 456789</p>
-          <p className="font-light text-sm">+987 654321</p>
-          <p className="font-light text-sm">info@ecommerce.com</p>
-          <p className="font-light text-sm">ecommerce@decore.com</p>
+          <h2 className="text-bold text-xl  mb-2 border-b-2 lg:text-2xl">
+            Contact Info
+          </h2>
+          <p className="text-center font-light text-sm lg:text-base">
+            London 88220
+          </p>
+          <p className="font-light text-sm lg:text-base">+123 456789</p>
+          <p className="font-light text-sm lg:text-base">+987 654321</p>
+          <p className="font-light text-sm lg:text-base">info@ecommerce.com</p>
+          <p className="font-light text-sm lg:text-base">
+            ecommerce@decore.com
+          </p>
         </div>
       </div>
       <div className="flex flex-col items-center  bg-sky-950 w-full">

@@ -36,10 +36,10 @@ const Navbar = () => {
 
             <ul className="hidden lg:flex justify-center">
               <li className="p-6 hover:text-zinc-400">
-                <Link href="/products">Products</Link>
+                <Link href="/home">Home</Link>
               </li>
               <li className="p-6 hover:text-zinc-400">
-                <Link href="/home">Home</Link>
+                <Link href="/products">Products</Link>
               </li>
               <li className="p-6 hover:text-zinc-400">
                 <Link href="/sales">Sales</Link>

@@ -36,7 +36,7 @@ const HomeNavbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 rounded-b-xl"
     >
-      <nav className="max-w-full m-auto  flex justify-between items-center  p-4  xl:px-24 lg:p-2 text-white">
+      <nav className="max-w-full m-auto  flex justify-between items-center  p-4   xl:px-24 lg:p-2 text-white">
         <h1 className="text-4xl font-bold cursor-pointer">HomeDecor</h1>
 
         <ul className="hidden lg:flex justify-center">
