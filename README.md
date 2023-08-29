@@ -1,2 +1,2 @@
 # ecommerce
- Next.js ecommerce site 
+ Next.js + node.js ecommerce site 
