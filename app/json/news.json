@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "published": "24 minutes ago",
+    "author": "Sarah",
+    "avatar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Home Transformation Stories: How Customers Changed Their Space",
+    "background": "https://images.pexels.com/photos/3823488/pexels-photo-3823488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Greetings to all interior design enthusiasts! Your home's story is your story. In this article, we present inspiring tales from our loyal customers who turned their homes into havens of style and comfort with the help of our furniture. Their interior design adventures showcase how the right choice of furniture can transform a room and create an ambiance that reflects their personality. Dive into these stories, learn about the challenges they conquered, and be inspired to turn your own home into a design masterpiece.",
+    "category": "Stories"
+  },
+  {
+    "id": "2",
+    "published": "yesterday",
+    "author": "Mike",
+    "avatar": "https://images.pexels.com/photos/3652927/pexels-photo-3652927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "5 Tips for Choosing the Perfect Furniture for Your Home",
+    "background": "https://images.pexels.com/photos/5691630/pexels-photo-5691630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Welcome to the world of home decor! Choosing the right furniture is not just about functionality, but also about creating an aesthetic experience that reflects your personal style. In this article, we will explore five key tips to help you make informed decisions. You'll learn how to measure your space correctly, coordinate furniture with existing decor, and consider practical and aesthetic aspects when selecting pieces. Whether you're in search of an elegant sofa, a functional workspace, or pieces that exude warmth, our tips will assist you in finding the perfect furniture for your home.",
+    "category": "Tips"
+  },
+  {
+    "id": "3",
+    "published": "June 9,2023",
+    "author": "Mike",
+    "avatar": "https://images.pexels.com/photos/3652927/pexels-photo-3652927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Sustainable Decorating: Designing an Eco-Conscious Home",
+    "background": "https://images.pexels.com/photos/2826787/pexels-photo-2826787.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "subtitle": "Delve into the world of sustainable design, where every choice you make brings you closer to a harmonious relationship with the environment. In this article, we explore ideas for decorating your home with a focus on eco-friendly materials, recycling, and waste reduction.",
+    "category": "Healthy"
+  },
+  {
+    "id": "4",
+    "published": "May 24,2023",
+    "author": "Miley",
+    "avatar": "https://images.pexels.com/photos/735552/pexels-photo-735552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Latest Interior Design Trends for This Season",
+    "background": "https://images.pexels.com/photos/226589/pexels-photo-226589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Welcome to the world of inspiration and innovation in interior design! Each season brings new trends that shape the way we perceive and decorate our homes. In this article, we will explore the latest trends in interior design for this season, from intriguing colors to modern styles and furniture pieces that capture the hearts of home decor enthusiasts. Whether you're looking to refresh your space or seeking inspiration for larger changes, these trends will inspire you and encourage creative decoration.",
+    "category": "Trending"
+  },
+  {
+    "id": "5",
+    "published": "March 13,2023",
+    "author": "Sarah",
+    "avatar": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Latest Arrivals: Introducing Our New Furniture Collection",
+    "background": "https://images.pexels.com/photos/7005299/pexels-photo-7005299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Welcome to a world of innovation and style as we unveil our freshest creations the embodiment of design excellence. In this article, we proudly present our newest furniture collection that combines craftsmanship, aesthetics, and functionality in seamless harmony. Each piece tells a story of thoughtful design and attention to detail, ready to transform your living spaces into reflections of sophistication. Get ready to explore a curated selection that embraces both modern trends and timeless elegance. Join us on a journey to discover the art of living beautifully with our latest arrivals.",
+    "category": "New collection"
+  },
+  {
+    "id": "6",
+    "published": "February 18,2023",
+    "author": "Miley",
+    "avatar": "https://images.pexels.com/photos/735552/pexels-photo-735552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Small Space Decorating: How to Maximize Your Home's Potential",
+    "background": "https://images.pexels.com/photos/3965563/pexels-photo-3965563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Welcome to a world where small spaces hold the promise of big possibilities. In this article, we'll dive into the art of decorating compact apartments or rooms, unlocking their full potential for both functionality and aesthetics. Discover innovative ideas that transform limited spaces into personalized havens of style and comfort. Whether you're dealing with a cozy apartment or a petite room, the following insights will guide you through the journey of creating a living space that marries form and function seamlessly. Get ready to explore the secrets of small space design and learn how to make every inch count.",
+    "category": "Tips"
+  },
+  {
+    "id": "7",
+    "published": "January 9,2023",
+    "author": "Mike",
+    "avatar": "https://images.pexels.com/photos/3652927/pexels-photo-3652927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Colors and Patterns: How to Harmonize Design in Your Home",
+    "background": "https://images.pexels.com/photos/110645/pexels-photo-110645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Welcome to a world where colors and patterns come together to create a harmonious symphony in your living spaces. In this article, we will delve into the art of selecting colors and patterns and mastering the art of their seamless fusion to achieve the desired aesthetic. Whether you're aiming for a vibrant burst of energy or a serene oasis of calm, our insights will guide you through the process of crafting a visually captivating and emotionally resonant home design. Discover the secrets of balancing colors and patterns to create a living space that reflects your unique personality and style.",
+    "category": "Trending"
+  },
+  {
+    "id": "8",
+    "published": "December 22,2022",
+    "author": "Miley",
+    "avatar": "https://images.pexels.com/photos/735552/pexels-photo-735552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Creative Home Decoration Ideas for the Holidays",
+    "background": "https://images.pexels.com/photos/1708601/pexels-photo-1708601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Prepare to immerse yourself in a world of festive magic and creative expression as we dive into the art of decorating your home for various holidays and special occasions. In this article, we will share a multitude of ideas to adorn your living spaces with the essence of celebrations, whether it's the warmth of Christmas, the renewal of Easter, or the charm of other thematic decorations.",
+    "category": "Tips"
+  },
+  {
+    "id": "9",
+    "published": "October 16,2022",
+    "author": "Mike",
+    "avatar": "https://images.pexels.com/photos/3652927/pexels-photo-3652927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "How to Properly Clean and Maintain Your Furniture",
+    "background": "https://images.pexels.com/photos/3890163/pexels-photo-3890163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "subtitle": "Quality furniture is an investment in your home's aesthetics and long-term comfort. Whether it's a plush seat or wooden surfaces, regular cleaning and proper care are essential to preserving the appearance and functionality of your furniture. In this article, we'll uncover the secrets of proper cleaning for various materials, helping extend the lifespan of your pieces. From fabrics to leather, tables to cabinets, you'll discover how to remove stains, prevent damage, and maintain your furniture's 'like new' appearance.",
+    "category": "Tips"
+  }
+]
