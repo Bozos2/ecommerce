@@ -1,7 +1,5 @@
 import type { Config } from "tailwindcss";
 
-const { fontFamily } = require("tailwindcss/defaultTheme");
-
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ["Nunito"],
+        nunito: ["var(--font-nunito)"],
+        rowdies: ["var(--font-rowdies"],
+      },
+      gradientColorStops: {
+        sky800: "#075985",
+        sky300: "#7dd3fc",
       },
     },
   },

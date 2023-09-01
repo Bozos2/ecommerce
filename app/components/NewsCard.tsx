@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Avatar from "react-avatar";
 
 const imageStyle = {
   borderRadius: "10%",

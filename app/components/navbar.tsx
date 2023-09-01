@@ -48,7 +48,7 @@ const Navbar = () => {
                 <Link href="/news">News</Link>
               </li>
               <li className="p-6 hover:text-zinc-400">
-                <Link href="/about">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
             <div className="hidden lg:flex justify-center">

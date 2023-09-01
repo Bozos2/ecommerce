@@ -1,13 +1,20 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Nunito, Rowdies } from "next/font/google";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const nunito = Nunito({
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-nunito",
+});
+
+const rowdies = Rowdies({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  variable: "--font-rowdies",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${nunito.className}`}>
+    <html lang="en" className={`${nunito.variable} ${rowdies.variable}`}>
       <body>
         <Navbar />
         <main>{children}</main>
