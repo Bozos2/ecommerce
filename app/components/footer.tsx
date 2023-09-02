@@ -21,7 +21,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex justify-around flex-col text-white bg-sky-700">
+    <footer className="flex justify-around flex-col text-white bg-sky-700 font-nunito">
       <div className="flex flex-row justify-around p-4 lg:p-16">
         <div className="hidden lg:flex flex-col w-96">
           <h1 className="text-bold text-4xl pb-2">About us</h1>

@@ -5,7 +5,7 @@ import RegisterIllustration from "../../assets/register-illustration.png";
 const Register = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="flex flex-row  justify-center mx-3 sm:mx-36 lg:mx-0 shadow-[0_10px_20px_rgba(135,_206,_235,_0.9)] rounded-xl max-w-[1100px] w-full h-[570px]">
+      <div className="flex flex-row  justify-center mx-3 sm:mx-36 lg:mx-0 shadow-[0_10px_20px_rgba(135,_206,_235,_0.9)] rounded-xl max-w-[1100px] w-full h-[570px] font-nunito">
         <div className="flex flex-col gap-6 px-14 w-full sm:px-4 sm:p-8 sm:w-4/6 lg:pl-12 lg:w-2/5">
           <div className="pt-6 sm:pt-2">
             <div className="flex flex-row justify-between">

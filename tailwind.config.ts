@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         nunito: ["var(--font-nunito)"],
-        rowdies: ["var(--font-rowdies"],
+        oswald: ["var(--font-oswald)"],
       },
       gradientColorStops: {
         sky800: "#075985",
