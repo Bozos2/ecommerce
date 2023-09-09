@@ -31,6 +31,7 @@ const NewsCard: React.FC<{
         width={250}
         height={220}
         style={imageStyle}
+        priority
       />
       <div className="flex flex-row">
         <Image
@@ -39,6 +40,7 @@ const NewsCard: React.FC<{
           width={24}
           height={24}
           style={avatarStyle}
+          priority
         />
         <p className="text-base pt-2 pl-2 font-light">
           {props.author} {`\u2022`}

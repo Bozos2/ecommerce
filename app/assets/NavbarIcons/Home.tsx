@@ -1,5 +1,3 @@
-"use client";
-
 const HomeSVG = () => {
   return (
     <svg

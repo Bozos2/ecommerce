@@ -1,5 +1,5 @@
 import Image from "next/image";
-2;
+
 const imageStyle = {
   borderRadius: "10%",
   border: "1px solid #fff",
@@ -9,7 +9,7 @@ const avatarStyle = {
   borderRadius: "50%",
   width: "24px",
   height: "24px",
-  "margin-top": "6px",
+  marginTop: "6px",
 };
 
 const LargeNewsCard: React.FC<{
@@ -32,6 +32,7 @@ const LargeNewsCard: React.FC<{
           /* width={550}
           height={380} */
           style={imageStyle}
+          priority
         />
       </div>
       <div className="flex flex-col mt-[-20px] sm:mt-0 px-2 sm:pl-8 mb-6">
@@ -42,6 +43,7 @@ const LargeNewsCard: React.FC<{
             width={24}
             height={24}
             style={avatarStyle}
+            priority
           />
           <p className="text-sm sm:text-base pt-2 pl-2 font-light">
             {props.author} {`\u2022`}
