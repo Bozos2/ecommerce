@@ -5,7 +5,7 @@ import LoginSVG from "@/app/assets/LoginSVGIllustration/LoginSVG";
 const Login = () => {
   return (
     <div className=" w-full  font-nunito">
-      <div className="flex flex-col xl:flex-row gap-12 mb-24 mt-6 xl:mt-0 xl:mb-0 xl:mx-4 xl:gap-0 xl:justify-around items-center xl:h-screen">
+      <div className="flex flex-col xl:flex-row gap-12 mb-24 mt-6 xl:mt-0 xl:mb-0 xl:mx-4 2xl:mx-36  xl:gap-0 xl:justify-around items-center xl:h-screen">
         <div className="max-w-[640px]">
           <h1 className="hidden xl:block xl:text-6xl xl:font-extrabold xl:text-sky-600">
             HomeDecor

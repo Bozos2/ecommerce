@@ -8,6 +8,7 @@ interface BodyResponseProp {
   email: string;
   fullName: string;
   password: string;
+  gender: string;
 }
 
 export async function POST(req: NextRequest, res: NextResponse) {
@@ -22,7 +23,14 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     console.log(data);
 
-    const { email, fullName, password } = data;
+    const { email, fullName, password, gender } = data;
+
+    if (gender !== "Male" && gender !== "Female" && gender !== "Other") {
+      return NextResponse.json(
+        { error: "Invalid gender value" },
+        { status: 400 }
+      );
+    }
 
     try {
       const userExists = await User.findOne({ email });
@@ -46,11 +54,13 @@ export async function POST(req: NextRequest, res: NextResponse) {
             fullName,
             email,
             password: hashedPassword,
+            gender,
           });
 
           const user = {
             email: data.email,
             fullName: data.fullName,
+            gender: data.gender,
             _id: data._id,
           };
 

@@ -22,6 +22,11 @@ const UserSchema = new Schema({
     required: [true, "Password is required"],
     select: false,
   },
+  gender: {
+    type: String,
+    required: [true, "Gender is required"],
+    enum: ["Male", "Female", "Other"],
+  },
 });
 
 const User = models.User || mongoose.model("User", UserSchema);

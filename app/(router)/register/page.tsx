@@ -1,8 +1,50 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { FormEvent, useState } from "react";
 import RegisterIllustration from "../../assets/register-illustration.png";
+import { useRouter } from "next/navigation";
+import axios, { AxiosError } from "axios";
 
 const Register = () => {
+  const [data, setData] = useState({
+    fullName: "",
+    email: "",
+    password: "",
+    gender: "",
+  });
+  const [error, setError] = useState<string>("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  const signupHandle = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const isValid = true;
+
+    if (isValid) {
+      try {
+        setLoading(true);
+        const apiRes = await axios.post(
+          "http://localhost:3000/api/auth/signup",
+          data
+        );
+        if (apiRes?.data.success) {
+        }
+      } catch (error: unknown) {
+        if (error instanceof AxiosError) {
+          const errorMessage = error.response?.data.error;
+          setError(errorMessage);
+        }
+      }
+      setLoading(false);
+    }
+  };
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setData({ ...data, [event.target.name]: event.target.value });
+  };
+
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex flex-row  justify-center mx-3 sm:mx-36 lg:mx-0 shadow-[0_10px_20px_rgba(135,_206,_235,_0.9)] rounded-xl max-w-[1100px] w-full h-[570px] font-nunito">
@@ -24,7 +66,7 @@ const Register = () => {
               Register new account
             </h4>
           </div>
-          <form method="POST">
+          <form method="POST" onSubmit={signupHandle}>
             <label
               className="block font-medium text-base text-zinc-500"
               htmlFor="fullname"
@@ -34,22 +76,47 @@ const Register = () => {
             <input
               className="bg-sky-100 shadow border rounded-xl px-3  py-2 w-full  border-zinc-300 focus:outline-none focus:shadow-outline"
               type="text"
+              name="fullName"
               id="fullname"
               title="fullname"
+              value={data.fullName}
+              onChange={handleInputChange}
               placeholder="Alan Ford"
+              required
             />
             <label
               className="block font-medium text-base text-zinc-500 mt-3"
-              htmlFor="email"
+              htmlFor="email1"
             >
               Email{" "}
             </label>
             <input
               className="bg-sky-100 shadow border rounded-xl px-3  py-2 w-full border-zinc-300  focus:outline-none focus:shadow-outline"
               type="text"
-              id="email"
+              name="email"
+              id="email1"
               title="email"
+              value={data?.email}
+              onChange={handleInputChange}
               placeholder="example@gmail.com"
+              required
+            />
+            <label
+              className="block font-medium text-base text-zinc-500 mt-3"
+              htmlFor="email"
+            >
+              Password{" "}
+            </label>
+            <input
+              className="bg-sky-100 shadow border rounded-xl px-3  py-2 w-full border-zinc-300  focus:outline-none focus:shadow-outline"
+              type="password"
+              name="password"
+              id="password"
+              title="password"
+              value={data?.password}
+              onChange={handleInputChange}
+              required
+              placeholder="Your password"
             />
             <label
               className="block font-medium text-base text-zinc-500 mt-3"
@@ -59,26 +126,19 @@ const Register = () => {
             </label>
             <select
               className="bg-sky-100 shadow border rounded-xl px-3  py-2 w-full border-zinc-300  focus:outline-none focus:shadow-outline"
+              name="gender"
               id="gender"
               title="gender"
+              value={data?.gender}
+              onChange={(e) => setData({ ...data, gender: e.target.value })}
+              required
             >
               <option value="">Select gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
             </select>
-            <label
-              className="block font-medium text-base text-zinc-500 mt-3"
-              htmlFor="birthdate"
-            >
-              Date of Birth
-            </label>
-            <input
-              className="bg-sky-100 shadow border rounded-xl px-3  py-2 w-full border-zinc-300  focus:outline-none focus:shadow-outline"
-              type="date"
-              id="birthdate"
-              title="birthdate"
-            />
+
             <div className="flex mt-6">
               <div className="bg-gradient-to-r from-sky800 to-sky300 text-white text-center font-semibold py-2 px-8 rounded-lg cursor-pointer focus:outline-none focus:shadow-outline">
                 <button
