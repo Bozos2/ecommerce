@@ -53,11 +53,13 @@ const options: NextAuthOptions = {
     },
     session: async ({ session, token }) => {
       const user = token.user as RUser;
-      session.user;
+      session.user = user;
 
       return session;
     },
   },
 };
 
-export default NextAuth(options);
+const handler = NextAuth(options);
+
+export { handler as GET, handler as POST };

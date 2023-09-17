@@ -6,6 +6,8 @@ import { FormEvent, useState } from "react";
 import RegisterIllustration from "../../assets/register-illustration.png";
 import { useRouter } from "next/navigation";
 import axios, { AxiosError } from "axios";
+import { loginUser } from "@/app/helpers/helper";
+import { ErrorsArray } from "@/app/types/error";
 
 const Register = () => {
   const [data, setData] = useState({
@@ -14,9 +16,30 @@ const Register = () => {
     password: "",
     gender: "",
   });
+  const [valError, setValError] = useState<ErrorsArray[]>([]);
   const [error, setError] = useState<string>("");
-  const [loading, setLoading] = useState(false);
+  const [disabled, setDisabled] = useState(false);
   const router = useRouter();
+
+  const validateData = (): boolean => {
+    const err = [];
+
+    if (data.fullName?.length < 4) {
+      err.push({ fullName: "Full name must be atleast 4 characters long" });
+    } else if (data.fullName?.length > 30) {
+      err.push({ fullName: "Full name should be less than 30 characters" });
+    } else if (data.password?.length < 6) {
+      err.push({ password: "Password should be atleast 6 characters long" });
+    }
+
+    setValError(err);
+
+    if (err.length > 0) {
+      return false;
+    } else {
+      return true;
+    }
+  };
 
   const signupHandle = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -25,12 +48,21 @@ const Register = () => {
 
     if (isValid) {
       try {
-        setLoading(true);
-        const apiRes = await axios.post(
+        setDisabled(true);
+        const apiResponse = await axios.post(
           "http://localhost:3000/api/auth/signup",
           data
         );
-        if (apiRes?.data.success) {
+        if (apiResponse?.data.success) {
+          const loginResponse = await loginUser({
+            email: data.email,
+            password: data.password,
+          });
+          if (loginResponse && !loginResponse.ok) {
+            setError(loginResponse.error || "");
+          } else {
+            router.push("/");
+          }
         }
       } catch (error: unknown) {
         if (error instanceof AxiosError) {
@@ -38,7 +70,7 @@ const Register = () => {
           setError(errorMessage);
         }
       }
-      setLoading(false);
+      setDisabled(false);
     }
   };
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -145,6 +177,7 @@ const Register = () => {
                   typeof="submit"
                   className="cursor-pointer"
                   type="submit"
+                  disabled={disabled}
                 >
                   Submit Form
                 </button>
