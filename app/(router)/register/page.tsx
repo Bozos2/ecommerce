@@ -18,7 +18,6 @@ const Register = () => {
   });
   const [valError, setValError] = useState<ErrorsArray[]>([]);
   const [error, setError] = useState<string>("");
-  const [disabled, setDisabled] = useState(false);
   const router = useRouter();
 
   const validateData = (): boolean => {
@@ -44,11 +43,10 @@ const Register = () => {
   const signupHandle = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const isValid = true;
+    const isValid = validateData();
 
     if (isValid) {
       try {
-        setDisabled(true);
         const apiResponse = await axios.post(
           "http://localhost:3000/api/auth/signup",
           data
@@ -70,7 +68,6 @@ const Register = () => {
           setError(errorMessage);
         }
       }
-      setDisabled(false);
     }
   };
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -116,6 +113,11 @@ const Register = () => {
               placeholder="Alan Ford"
               required
             />
+            {valError && (
+              <div className="text-red-400 pl-1">
+                {valError.map((error) => error.fullName)}
+              </div>
+            )}
             <label
               className="block font-medium text-base text-zinc-500 mt-3"
               htmlFor="email1"
@@ -150,6 +152,11 @@ const Register = () => {
               required
               placeholder="Your password"
             />
+            {valError && (
+              <div className="text-red-400 pl-1">
+                {valError.map((error) => error.password)}
+              </div>
+            )}
             <label
               className="block font-medium text-base text-zinc-500 mt-3"
               htmlFor="gender"
@@ -166,9 +173,9 @@ const Register = () => {
               required
             >
               <option value="">Select gender</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="other">Other</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
             </select>
 
             <div className="flex mt-6">
@@ -177,12 +184,12 @@ const Register = () => {
                   typeof="submit"
                   className="cursor-pointer"
                   type="submit"
-                  disabled={disabled}
                 >
                   Submit Form
                 </button>
               </div>
             </div>
+            {error && <div className="text-red-400 p-1">{error}</div>}
           </form>
         </div>
         <div className="hidden lg:flex items-center">

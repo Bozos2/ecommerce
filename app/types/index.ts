@@ -9,3 +9,8 @@ export interface RUser {
   fullName: string;
   gender: string;
 }
+
+export interface LoginUserData {
+  email: string;
+  password: string;
+}

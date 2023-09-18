@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Avatar from "react-avatar";
+import { useSession, signOut } from "next-auth/react";
 
 import HomeSVG from "../assets/NavbarIcons/Home";
 import NewsSVG from "../assets/NavbarIcons/News";
@@ -11,10 +12,12 @@ import ProductsSVG from "../assets/NavbarIcons/Products";
 import ContactSVG from "../assets/NavbarIcons/Contact";
 import CartSVG from "../assets/NavbarIcons/Cart";
 import avatar from "../assets/woman-avatar.jpg";
+import Guest from "../assets/Guest.png";
 
 const HomeNavbar = () => {
   const [nav, setNav] = useState<boolean>(false);
   const [color, setColor] = useState<string>("transparent");
+  const { data: session }: any = useSession();
 
   const handleNav = () => {
     setNav(!nav);
@@ -57,12 +60,36 @@ const HomeNavbar = () => {
           </li>
         </ul>
         <div className="hidden lg:flex justify-center">
-          <Link href="/login" className="p-4 hover:text-zinc-400">
-            Login
-          </Link>
-          <Link href="/register" className="p-4 hover:text-zinc-400">
-            Register
-          </Link>
+          {session ? (
+            <div className="flex flex-row">
+              <div className="mt-1">
+                <Avatar
+                  size="40"
+                  round="120px"
+                  src={avatar.src}
+                  style={{ cursor: "pointer" }}
+                />
+              </div>
+              <h4 className="p-3 font-nunito cursor-pointer hover:underline">
+                {session?.user?.fullName}
+              </h4>
+              <button
+                onClick={() => signOut()}
+                className="px-4  border-2 rounded-2xl ml-6"
+              >
+                Log out
+              </button>
+            </div>
+          ) : (
+            <>
+              <Link href="/login" className="p-4 hover:text-zinc-400">
+                Login
+              </Link>
+              <Link href="/register" className="p-4 hover:text-zinc-400">
+                Register
+              </Link>
+            </>
+          )}
         </div>
 
         {/* Mobile Button */}
@@ -78,13 +105,27 @@ const HomeNavbar = () => {
           }
         >
           <div>
-            <Avatar
-              size="110"
-              round="120px"
-              src={avatar.src}
-              style={{ cursor: "pointer" }}
-            />
-            <h4 className="pt-3">Amanda Smith</h4>
+            {session ? (
+              <>
+                <Avatar
+                  size="110"
+                  round="120px"
+                  src={avatar.src}
+                  style={{ cursor: "pointer" }}
+                />
+                <h4 className="pt-3">{session?.user?.fullName}</h4>
+              </>
+            ) : (
+              <>
+                <Avatar
+                  size="110"
+                  round="120px"
+                  src={Guest.src}
+                  style={{ cursor: "pointer" }}
+                />
+                <h4 className="pt-3">Guest</h4>
+              </>
+            )}
           </div>
           <ul className="w-11/12">
             <li
@@ -143,12 +184,20 @@ const HomeNavbar = () => {
             </li>
           </ul>
           <div className="">
-            <Link href="/login" className="p-4 hover:text-zinc-400">
-              Login
-            </Link>
-            <Link href="/register" className="p-4 hover:text-zinc-400">
-              Register
-            </Link>
+            {session ? (
+              <button onClick={() => signOut()} className="hover:text-zinc-400">
+                Log out{" "}
+              </button>
+            ) : (
+              <>
+                <Link href="/login" className="p-4 hover:text-zinc-400">
+                  Login
+                </Link>
+                <Link href="/register" className="p-4 hover:text-zinc-400">
+                  Register
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </nav>
