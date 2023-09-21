@@ -30,7 +30,7 @@ const Login = () => {
 
       console.log("error", loginResponse?.error);
 
-      if (loginResponse && !loginResponse.ok) {
+      if (loginResponse && loginResponse.error) {
         setError(loginResponse.error || "");
       } else {
         router.push("/");
