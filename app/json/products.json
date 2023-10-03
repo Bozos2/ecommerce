@@ -1,0 +1,1130 @@
+[
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Elegant sofa",
+    "image": "https://img.freepik.com/free-psd/empty-wall-with-elegant-sofa_176382-1275.jpg?w=826&t=st=1695472592~exp=1695473192~hmac=a23aefb6833182bd04581fb8a64be44fdc918b0c463401ca8da892f7cae5b4e6",
+    "price": "749.99",
+    "colors": ["#27272a", "#fca5a5", "#c2410c", "#14532d", "#881337"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Three-seater sofa",
+    "image": "https://img.freepik.com/free-photo/retro-couch-living-room_23-2150711898.jpg?t=st=1695643185~exp=1695646785~hmac=84a7a373afa808dfa6d21575ced6b93053fd52d1d0ffdca4e5e6b7bec6a8f512&w=1380",
+    "price": "999.99",
+    "colors": ["#facc15", "#155e75", "#831843", "#1c1917"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Wooden modern sofa",
+    "image": "https://img.freepik.com/free-photo/minimal-living-room-interior-design-with-leaf-shadow-wall_53876-128645.jpg?w=1380&t=st=1695473034~exp=1695473634~hmac=3c1fcc78fd6512f83706f0c68c3f15be11ae358fcd19aff729e632213a94ef21",
+    "price": "399.99",
+    "colors": ["#44403c", "#991b1b", "#14532d"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Corner sofa",
+    "image": "https://img.freepik.com/free-psd/white-sofa-table_176382-1800.jpg?w=826&t=st=1695473114~exp=1695473714~hmac=577e4caeed9d49eccf5494bdd9270ca70d6d828e1086aaad157be186099f200c",
+    "price": "349.99",
+    "colors": ["#a1a1aa", "#404040", "#9f1239"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Pillows sofa",
+    "image": "https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178330.jpg?w=1380&t=st=1695473274~exp=1695473874~hmac=61249cb5abb446113b95f97e950d0c4ab95b6ea4756381a584685a754741172b",
+    "price": "549.99",
+    "colors": ["#422006", "#14532d", "#0369a1"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Velvet sofa",
+    "image": "https://img.freepik.com/free-photo/living-room-with-white-couch-lamp_1340-26737.jpg?t=st=1695643373~exp=1695646973~hmac=0c51a286ffe06487ea30337db802c7fd89e085b97b21d1f4c3bf761326b6e3f1&w=1380",
+    "price": "449.99",
+    "colors": ["#404040", "#2e1065", "#155e75", "#020617"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Two-seater sofa",
+    "image": "https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?w=1380&t=st=1695472288~exp=1695472888~hmac=2be19fe637ec219077c4b39fe421c6cc4baa3ffef1bd98e73694652b1a22d992",
+    "price": "499.99",
+    "colors": ["#a1a1aa", "#9a3412", "#1e293b", "#1c1917"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Coffe Tables",
+    "title": "wooden table",
+    "image": "https://img.freepik.com/free-photo/indoor-modern-design-with-wooden-chair-vase-generated-by-ai_188544-21718.jpg?t=st=1695473693~exp=1695477293~hmac=0a9288bf6796cc10fc46ba5b0fef66f5b9a0e911ebbf5d968733b788eb51053b&w=1380",
+    "price": "199.99",
+    "colors": ["#422006", "#171717"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Coffe Tables",
+    "title": "Ball table",
+    "image": "https://img.freepik.com/free-photo/interior-space-decorated-boho-style_23-2150771541.jpg?t=st=1695474140~exp=1695477740~hmac=28bc301e4dad759557393cef0e9d653ba36a74f84075753ad7ddc2f43cb1cbab&w=1380",
+    "price": "499.99",
+    "colors": ["#78350f", "#4c0519"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Coffe tables",
+    "title": "Rustical table",
+    "image": "https://images.pexels.com/photos/6707628/pexels-photo-6707628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "299.99",
+    "colors": ["#a16207", "#1c1917"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Coffe Tables",
+    "title": "Wooden table",
+    "image": "https://img.freepik.com/free-photo/sofa-living-room-decorated-with-brazilian-folklore-design_23-2150794211.jpg?t=st=1695474224~exp=1695477824~hmac=7f5f5d7347c47cbcb1a6422a4543ffdd2633688a0743fec93ddb54e197cad0f2&w=1380",
+    "price": "649.99",
+    "colors": ["#422006", "#4c0519", "#1c1917"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Tv Stands",
+    "title": "Classic TV stand",
+    "image": "https://img.freepik.com/free-photo/view-computer-monitor-display-with-desk_23-2150757533.jpg?t=st=1695471380~exp=1695474980~hmac=98d4471af2b78cd7d787f64efae7258291b027f6eb6a457c8c29766eba0c3715&w=1380",
+    "price": "249.99",
+    "colors": ["#713f12", "#1c1917"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Tv Stands",
+    "title": "Rustical tv stands",
+    "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791108.jpg?t=st=1695474881~exp=1695478481~hmac=df0d77177349b71c642fc7e672306ecd303c5b543a7d6e9a7efd671d31f4734b&w=1380",
+    "price": "499.99",
+    "colors": ["#A1662F"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Tv Stands",
+    "title": "Big tv stand",
+    "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791140.jpg?t=st=1695474996~exp=1695478596~hmac=a23045b67e9505d4d6d6a8e8f0c1ea4cf75c67a3da4d81f5d0e6846915b647d8&w=1060",
+    "price": "449.99",
+    "colors": ["#a1662f", "#262626"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Poufs & Ottomans",
+    "title": "Big ottoman",
+    "image": "https://images.pexels.com/photos/7195592/pexels-photo-7195592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "89.99",
+    "colors": ["#334155", "#92400e", "#365314"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Poufs & Ottomans",
+    "title": "Multicolor pouf",
+    "image": "https://images.pexels.com/photos/5997981/pexels-photo-5997981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "29.99",
+    "colors": ["#0284c7", "#059669"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Bookcases",
+    "title": "Modern bookcase",
+    "image": "https://images.pexels.com/photos/1125130/pexels-photo-1125130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "149.99",
+    "colors": ["#a1662f", "#262626"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Bookcases",
+    "title": "Old small bookcase",
+    "image": "https://images.pexels.com/photos/4440123/pexels-photo-4440123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "99.99",
+    "colors": ["#fdba74", "#262626"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Bookcases",
+    "title": "Bookcase for big home",
+    "image": "https://images.pexels.com/photos/244135/pexels-photo-244135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "399,99",
+    "colors": ["#a1662f", "#020617"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Luxury Bed",
+    "image": "https://img.freepik.com/free-photo/luxurious-modern-apartment-comfortable-bedding-illuminated-window-generated-by-ai_188544-17085.jpg?t=st=1695476342~exp=1695479942~hmac=2989d2b86e98eef34bbf9807c3edf2f8900eca9584cef4e50e388541be807d38&w=1380",
+    "price": "1,600",
+    "colors": ["#a1662f", "#27272a", "#1e3a8a"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Lilliend Bed",
+    "image": "https://img.freepik.com/free-photo/modern-luxury-hotel-room-with-comfortable-bedding-generated-by-ai_188544-17078.jpg?t=st=1695476475~exp=1695480075~hmac=ab42786911d64e4c7456f6cca4cb4afe12fba26c7971de1e0b1d5e04d5e79a60&w=1380",
+    "price": "1,800",
+    "colors": ["#e5e7eb", "#0a0a0a"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "HomeDecor family bed",
+    "image": "https://img.freepik.com/free-photo/room-house-decorated-with-brazilian-folklore-design_23-2150794133.jpg?t=st=1695750107~exp=1695753707~hmac=6fac5b300a95a4b313057bf32cc1ea02e50bea98c2494daac17cb6357dd9e50b&w=1380",
+    "price": "899.99",
+    "colors": ["#fdba74", "#ca8a04"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Ralph dx luxury bed",
+    "image": "https://img.freepik.com/free-photo/luxury-hotel-suite-with-modern-elegance-comfort-generated-by-ai_188544-21265.jpg?t=st=1695476646~exp=1695480246~hmac=d2d726a7bc4bed17d0e47969aecd5fafd2c4cbd35b98a5f1e685235044e63aaf&w=1380",
+    "price": "1499,99",
+    "colors": ["#fed7aa", "#292524", "#0369a1"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Lilliend leather bad",
+    "image": "https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-34076.jpg?t=st=1695477913~exp=1695481513~hmac=42d1c034b66d841e87457a94555ab0714783f7602c9aca763fa68415d5f59703&w=1380",
+    "price": "1349,99",
+    "colors": ["#0a0a0a", "#292524", "#172554"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Ralph dx solid wood",
+    "image": "https://img.freepik.com/free-photo/interior-decoration-inspired-by-mexican-folklore_23-2150711373.jpg?t=st=1695478061~exp=1695481661~hmac=05e54b43c23e24729351ccd19b766e7c2ae311cd612d04ef1e9a36099f0fd549&w=1380",
+    "price": "699,99",
+    "colors": ["#fed7aa", "#292524", "#0369a1"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Modern bed",
+    "image": "https://img.freepik.com/free-photo/boho-designed-style-bed-room-background_1409-4251.jpg?t=st=1695478101~exp=1695481701~hmac=0f416a9b3cf33cc9a599f7f6885b4380c6c5bc153111397e66f8bc2cc51c5828&w=1380",
+    "price": "479,99",
+    "colors": ["#713f12", "#4c0519"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Nightstands",
+    "title": "Ralph dx nightstand",
+    "image": "https://img.freepik.com/free-photo/luxury-hotel-bedroom-modern-design-comfortable-bedding-generated-by-ai_188544-17115.jpg?t=st=1695476725~exp=1695480325~hmac=1661e645b0849af15487906794330ef1829485f22154e5d6a0c2033d2eca8871&w=1380",
+    "price": "34,99",
+    "colors": ["#a1662f", "#292524"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Nightstands",
+    "title": "Solid wood nightstand",
+    "image": "https://img.freepik.com/free-photo/luxury-hotel-suite-modern-design-cozy-sleeping-generative-ai_188544-40893.jpg?t=st=1695478379~exp=1695481979~hmac=c06f46ced5c06490ac2a38a70ee39a3e8dc2ad1a04a026ec0ddd6dd36dcdc4f2&w=1380",
+    "price": "29,99",
+    "colors": ["#a1662f", "#292524"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Nightstands",
+    "title": "Ralph dx solid wood",
+    "image": "https://img.freepik.com/free-photo/comfortable-modern-bedroom-with-elegant-decoration-lighting-generative-ai_188544-32265.jpg?t=st=1695478465~exp=1695482065~hmac=e44948d77453f817791caf63228914223bceab31682ed75a589649dee6dcfc40&w=1380",
+    "price": "29,99",
+    "colors": ["#a1662f", "#292524"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Dining Sets",
+    "title": "Modern set",
+    "image": "https://images.pexels.com/photos/932095/pexels-photo-932095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "609,99",
+    "colors": ["#0c0a09", "#172554", "#450a0a", "#075985"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Dining Sets",
+    "title": "Lilliend dining set",
+    "image": "https://img.freepik.com/free-photo/modern-kitchen-interior-design_23-2150772127.jpg?t=st=1695478589~exp=1695482189~hmac=68dd9f6657705a58785a0b542a70eb40a086237ffec5327add0d6f3f72c2357b&w=1380",
+    "price": "399,99",
+    "colors": ["#a1662f", "#292524"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Dining Sets",
+    "title": "Luxury dining set",
+    "image": "https://img.freepik.com/free-photo/modern-dinner-table-decorated-christmas_23-2150679102.jpg?t=st=1695478833~exp=1695482433~hmac=9fb428966fee2bef54618ba75fe11f2401d5228b943f4c60af2d59ca83070651&w=1380",
+    "price": "2,400",
+    "colors": ["#a1662f", "#292524"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Dining Sets",
+    "title": "Small-modern dining set",
+    "image": "https://images.pexels.com/photos/2089696/pexels-photo-2089696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "249,99",
+    "colors": ["#a1662f", "#262626", "#0a0a0a"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Towels",
+    "title": "Math dx towels",
+    "image": "https://images.pexels.com/photos/67723/pexels-photo-67723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "19,99",
+    "colors": ["#84cc16", "#0a0a0a", "#b91c1c", "#0ea5e9"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Towels",
+    "title": "Math dx big towels",
+    "image": "https://images.pexels.com/photos/45980/pexels-photo-45980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "29,99",
+    "colors": ["#5b21b6", "#701a75", "#312e81"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Towels",
+    "title": "Big classic towels",
+    "image": "https://images.pexels.com/photos/1304110/pexels-photo-1304110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "39,99",
+    "colors": ["#fbcfe8", "#171717"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Lilliend vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695014.jpg?t=st=1695482492~exp=1695486092~hmac=415e17388ee1cbadaae3b861784787791dd9aca26cfb3e05d9b56effe925812d&w=740",
+    "price": "149,99",
+    "colors": ["#e4e4e7", "#171717"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Small-modern vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694940.jpg?t=st=1695482545~exp=1695486145~hmac=f650555a1b09e2be8cedf10555a36b8592314df3ae1e99127fc8029fe3a165d0&w=740",
+    "price": "249,99",
+    "colors": ["#e4e4e7", "#404040"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Lilliend big vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-design-style_23-2150700252.jpg?t=st=1695482688~exp=1695486288~hmac=ecaff57e4d0e386fa432663d1deb3daf27420d95b0e4c2a7fcb5187bbd910170&w=1380",
+    "price": "389,99",
+    "colors": ["#e4e4e7", "#292524"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Solid wood vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694908.jpg?t=st=1695482741~exp=1695486341~hmac=79d475e130a213d87515ec7bde59d0de2f26684da1663c28b453f23b1e278a30&w=740",
+    "price": "229,99",
+    "colors": ["#a1662f", "#404040"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Math dx vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694886.jpg?t=st=1695482830~exp=1695486430~hmac=8d3604143d9c66e4bf3520676147e1d27acfd3836fcf8e4533733de89dcf0f7a&w=740",
+    "price": "179,99",
+    "colors": ["#e4e4e7", "#171717"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Math dx modern vanitie",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695026.jpg?t=st=1695482896~exp=1695486496~hmac=fe14b82618a891fd6ca6cd715704697e47c44e185e0bcc1665b54973046868e1&w=1380",
+    "price": "599,99",
+    "colors": ["a1662f", "#292524"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Tubs",
+    "title": "Vanx medium-size",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695018.jpg?t=st=1695643942~exp=1695647542~hmac=6bfba1101ba331d7deacc3e3210ca542768674a688d19b02a1f6123236044b77&w=1060",
+    "price": "759,00",
+    "colors": ["#e4e4e7", "#0a0a0a"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Tubs",
+    "title": "Math dx deep tub",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150695030.jpg?t=st=1695644078~exp=1695647678~hmac=42464a2cb4974aab2c4b3359d7cb8999a84dd88e199524f3d3cdf1c6206fe35f&w=1380",
+    "price": "1,290",
+    "colors": ["#1c1917", "#1a2e05"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Tubs",
+    "title": "Modern tub",
+    "image": "https://img.freepik.com/free-photo/rose-petals-bathtub_23-2150787632.jpg?t=st=1695644312~exp=1695647912~hmac=5002a4dd4783b6faacf2eb4da742e11919594e9724dc73d006fd35a0d5cc3ecf&w=1380",
+    "price": "349,99",
+    "colors": ["#854d0e", "#500724"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Showers",
+    "title": "Vanx shower",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694976.jpg?t=st=1695644414~exp=1695648014~hmac=68cadd0568d3be6620921b71b16c9af3676d830bb519181982d9e4744f086f63&w=1380",
+    "price": "549,99",
+    "colors": ["#0c0a09", "#e5e7eb"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Showers",
+    "title": "Classic shower",
+    "image": "https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "389,99",
+    "colors": ["#67e8f9", "#1c1917"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Toilets",
+    "title": "Vanx xl",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-design_23-2150700290.jpg?t=st=1695644671~exp=1695648271~hmac=8b07d2d421345f842ceafd79ec1560a4d51931e42a47dc65a6c90f00e46ee829&w=740",
+    "price": "299,99",
+    "colors": ["#e4e4e7", "#262626"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Toilets",
+    "title": "Vanx xxl",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-design_23-2150700300.jpg?t=st=1695644667~exp=1695648267~hmac=66517666ec77ebf9c3b886ffd93ffe423f13cdafe6a41fde9f115f2460166650&w=740",
+    "price": "349,99",
+    "colors": ["#e4e4e7", "#262626"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dining Bowls",
+    "title": "Ceramic bowl",
+    "image": "https://img.freepik.com/free-photo/shiny-blue-crockery-bowl-clean-black-background-generated-by-ai_188544-23202.jpg?t=st=1695644888~exp=1695648488~hmac=1744474c989f2530d327e6753204b1a9d9dd839f1fc98765d0a09e832a1d1aa5&w=1380",
+    "price": "39,99",
+    "colors": ["#1d4ed8", "#ef4444", "#365314", "#09090b"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dining Bowls",
+    "title": "Wood bowl",
+    "image": "https://img.freepik.com/free-photo/earthenware-bowl-rustic-table-nature-generative-ai_188544-33296.jpg?t=st=1695645046~exp=1695648646~hmac=157407a60a964a898f1f7021a69aa634b6a6e663725fc1c404dfc879b6df7c36&w=1380",
+    "price": "49,99",
+    "colors": ["#422006", "#262626"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dining Bowls",
+    "title": "Rustical wood bowl",
+    "image": "https://img.freepik.com/free-photo/rustic-earthenware-bowl-wooden-table-with-decoration-generated-by-ai_188544-23209.jpg?t=st=1695645125~exp=1695648725~hmac=eeeb7c717c9d8cf9482de406ece7cb779f651b05bfe00cc412e424b2ab543fb4&w=1380",
+    "price": "79,99",
+    "colors": ["#422006", "#4c0519"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Flatware Sets",
+    "title": "Rustical flatware set",
+    "image": "https://img.freepik.com/free-photo/elegant-kitchen-utensils-set-harmonious-fusion-practicality-style-meet-your-culinary-requirements_157027-2380.jpg?t=st=1695645441~exp=1695649041~hmac=3a3152711722126b2edb5f429b218afbe19f1a6fced99f4c5a7a34800ebf648c&w=1380",
+    "price": "1,299",
+    "colors": ["#ffd700", "#1e40af"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Flatware Sets",
+    "title": "Wood set",
+    "image": "https://img.freepik.com/free-photo/elegant-set-kitchen-utensils-impeccable-blend-usefulness-sophistication-tailored-your-culinary-needs_157027-2598.jpg?t=st=1695645581~exp=1695649181~hmac=79f5fc1258396bc3920b460661de5af32deb6d1f82ddd436b8704443bafe8f5f&w=1380",
+    "price": "109,99",
+    "colors": ["#422006", "#262626"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Flatware Sets",
+    "title": "Gold set",
+    "image": "https://img.freepik.com/free-photo/elegant-kitchen-utensils-set-harmonious-fusion-practicality-style-meet-your-culinary-requirements_157027-2450.jpg?t=st=1695645654~exp=1695649254~hmac=e4343529db7825e3d8268a5a5bab33497b2b683d0061f966bd05b0ee75206ad9&w=1380",
+    "price": "399,99",
+    "colors": ["#ffd700", "#d97706"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dinnerware Sets",
+    "title": "Ceramic set",
+    "image": "https://img.freepik.com/free-photo/top-view-table-arrangement-with-empty-dishes-tableware_23-2150310727.jpg?t=st=1695645808~exp=1695649408~hmac=659451271af2a85b0ed2fac6cb7c35446e38a077abd07ab52546da9f35f3ac56&w=1380",
+    "price": "399,99",
+    "colors": ["#1d4ed8", "#422006", "#052e16"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dinnerware Sets",
+    "title": "Stainless steel set",
+    "image": "https://img.freepik.com/free-photo/top-view-table-arrangement-with-empty-dishes-tableware_23-2150310749.jpg?t=st=1695645928~exp=1695649528~hmac=bc625f3c3c54f3ee04bfa801f98f4e1b4acdfe3e9763ab3da6ee4ad37955b658&w=1380",
+    "price": "599,99",
+    "colors": ["#171717", "#a1a1aa"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dinnerware Sets",
+    "title": "Porcelain set",
+    "image": "https://img.freepik.com/free-photo/top-view-table-arrangement-with-empty-dishes-tableware_23-2150310712.jpg?t=st=1695646029~exp=1695649629~hmac=5488f69c49701d60c567aba2cdb70c0144b25c571134fe40539730a205dcd975&w=1380",
+    "price": "299,99",
+    "colors": ["#78350f", "#7f1d1d"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Dinnerware Sets",
+    "title": "Classic ceramic set",
+    "image": "https://img.freepik.com/free-photo/top-view-table-arrangement-with-empty-dishes-tableware_23-2150310760.jpg?t=st=1695646167~exp=1695649767~hmac=f4dac22f56aebfdcbcdc46a5f025d27c98b732546dc15c1b4e35850c1172ab07&w=1380",
+    "price": "99,99",
+    "colors": ["#e5e5e5", "#a7f3d0"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "Champagne glasses",
+    "image": "https://img.freepik.com/free-photo/happy-new-year-celebration-with-drink_23-2150725462.jpg?t=st=1695646301~exp=1695649901~hmac=cfc5b6324a4e0e2d42d131185c0e9ba20a10bf16b4078410c4315ffc769a28b9&w=740",
+    "price": "89,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "Champagne xxl glasses",
+    "image": "https://img.freepik.com/free-photo/happy-new-year-celebration-with-drink_23-2150725410.jpg?t=st=1695646392~exp=1695649992~hmac=b8702b256318dc65200fe72a1cdc0e3cd23a5f93666188eddd4409ebf074f5b9&w=1380",
+    "price": "99,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "Champagne xl glasses",
+    "image": "https://img.freepik.com/free-photo/happy-new-year-celebration-with-drink_23-2150725456.jpg?t=st=1695646478~exp=1695650078~hmac=93ea161c3e6a3111f9278a657e1651b0e8cbff11718fb370bdeac9571d5c0845&w=740",
+    "price": "79,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "Red wine glasses",
+    "image": "https://img.freepik.com/free-photo/luxury-wineglass-reflects-candlelit-elegance-celebration-generated-by-ai_188544-15330.jpg?t=st=1695643651~exp=1695647251~hmac=3c2d4231896eacd5802b990d6556463790e22fe32d9151e392c4274397045191&w=1380",
+    "price": "49,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "Wine xxl glasses",
+    "image": "https://img.freepik.com/free-photo/luxury-wine-bottle-rustic-table-indoors-generated-by-ai_188544-23482.jpg?t=st=1695646450~exp=1695650050~hmac=985a1bce59576b8bc0201fb93e41574a24aa2cd7992e0315c3664c0d62fa0b79&w=1380",
+    "price": "129,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Wine & Champagne Glasses",
+    "title": "White wine glasses",
+    "image": "https://img.freepik.com/free-photo/luxury-cabernet-sauvignon-rustic-winery-generated-by-ai_188544-30666.jpg?t=st=1695646856~exp=1695650456~hmac=92342f117c9410445b7ff4024dd8cd1af5d23df4d420208cb1e99cf9986cb90b&w=1380",
+    "price": "69,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Drinking Glasses",
+    "title": "HomeDecor design #1",
+    "image": "https://img.freepik.com/free-photo/wet-glass-reflects-blue-nature-purity-abstractly-generated-by-ai_188544-15354.jpg?t=st=1695647033~exp=1695650633~hmac=ea87fcf5d9336573462e225e96f92c754348ab0d819cfb8290f4c9ae084ef6be&w=1380",
+    "price": "29,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Drinking Glasses",
+    "title": "HomeDecor design #2",
+    "image": "https://img.freepik.com/free-photo/shiny-glass-fresh-purified-water-pour-generated-by-ai_188544-15329.jpg?t=st=1695647096~exp=1695650696~hmac=5e13ab93e5b40ffc08d80b266a7080d1cb271c7f25cbe74466cfc35e02bb5783&w=1380",
+    "price": "19,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Drinking Glasses",
+    "title": "HomeDecor design #3",
+    "image": "https://img.freepik.com/free-photo/wooden-desk-single-glass-ice-whiskey-pouring-generated-by-ai_188544-15074.jpg?t=st=1695647156~exp=1695650756~hmac=5597fd2980e59c0d4107ad9ab09c3b158facc55991241ae1b646e906acb7f883&w=1380",
+    "price": "13,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Drinking Glasses",
+    "title": "HomeDecor design #4",
+    "image": "https://img.freepik.com/free-photo/whiskey-poured-crystal-glass-table-generated-by-ai_188544-27378.jpg?t=st=1695647186~exp=1695650786~hmac=e2acb9288bfb2bb743d0dd9ea45027a93e0980ccbf47594333622beb000e9f4c&w=1380",
+    "price": "49,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Drinking Glasses",
+    "title": "HomeDecor design #5",
+    "image": "https://img.freepik.com/free-photo/glass-lemonade-sits-table-with-spoon-glass-ice_188544-15270.jpg?t=st=1695647263~exp=1695650863~hmac=bedd8ff4eaf2a77023e519526c3f85f2a99292d48688ab1f0542244f85223197&w=1380",
+    "price": "39,99",
+    "colors": ["#f3f4f6", "#6b7280"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Classic mug",
+    "image": "https://img.freepik.com/free-photo/coffee-cup-sits-alone-steam-rises-softly-generated-by-ai_188544-10185.jpg?t=st=1695648287~exp=1695651887~hmac=1380d43ad9be03babf94e542f8585841fbd9ceabc8948e5514e2fead522ddc1b&w=826",
+    "price": "8,99",
+    "colors": ["#f3f4f6", "#0a0a0a", "#dc2626", "#22c55e"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Elephant mug",
+    "image": "https://img.freepik.com/free-photo/elephant-mug-sips-hot-coffee-wooden-table-generated-by-ai_188544-36304.jpg?t=st=1695648347~exp=1695651947~hmac=55b632c468203cee4c0651c86fa51b38c57297e13bcf40f22db24251f73c4ec6&w=1380",
+    "price": "12,99",
+    "colors": ["#f5f5f5", "#5eead4"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Rustic mug",
+    "image": "https://img.freepik.com/free-photo/rustic-mug-with-ornate-handle-holds-coffee-generated-by-ai_188544-34383.jpg?t=st=1695648570~exp=1695652170~hmac=3d08b41af7de253aef123bcb7b9ce8dec362034ea0f4df93eb2e393742f7a42b&w=1380",
+    "price": "39,99",
+    "colors": ["#ffd700", "#0284c7"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Pair of mugs",
+    "image": "https://images.pexels.com/photos/3867000/pexels-photo-3867000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "19,99",
+    "colors": ["#f3f4f6", "#171717"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Retro tea set",
+    "image": "https://img.freepik.com/free-photo/retro-tea-set-table_23-2150711844.jpg?t=st=1695648252~exp=1695651852~hmac=4d0ceedfa64fcdda23b642a20886d8137cbe7454cec88281f3a744b8f5ddc475&w=740",
+    "price": "69,99",
+    "colors": ["#fca5a5", "#fcd34d", "#34d399"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Modern teacup",
+    "image": "https://img.freepik.com/free-photo/hot-coffee-steams-wooden-table-indoors-generated-by-ai_24640-86753.jpg?t=st=1695649025~exp=1695652625~hmac=2e1a25b2c744d5b4a033dc6e06a84e22e6e2895c8406886c15036bcc0dfffb1c&w=1380",
+    "price": "14,99",
+    "colors": ["#f9fafb", "#9ca3af"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Mugs & Teacups",
+    "title": "Ceramic teacup",
+    "image": "https://images.pexels.com/photos/734983/pexels-photo-734983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "12,99",
+    "colors": ["#2563eb", "#10b981", "#8b5cf6"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Coffe Makers",
+    "title": "Coffe maker xl",
+    "image": "https://img.freepik.com/free-photo/view-coffee-making-machine_23-2150698701.jpg?t=st=1695649193~exp=1695652793~hmac=0a6bf360091c89949e2a32dbb05ab474a9e0266d6d745914a647e62bbcb6991d&w=1380",
+    "price": "899,99",
+    "colors": ["#6b7280", "#09090b"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Coffe Makers",
+    "title": "Retro coffe maker",
+    "image": "https://img.freepik.com/free-photo/barista-making-fresh-cappuccino-espresso-machine-generated-by-ai_188544-36062.jpg?t=st=1695649327~exp=1695652927~hmac=5b1fc7a6738a56e269e858804f4e98b753a396422447d1fed7feda555f903de2&w=1380",
+    "price": "1,200",
+    "colors": ["#dc2626", "#6b7280", "#09090b"]
+  },
+  {
+    "category": "Kitchen",
+    "subcategory": "Coffe Makers",
+    "title": "Home coffie maker",
+    "image": "https://img.freepik.com/free-photo/coffee-ai-generated_23-2150691627.jpg?t=st=1695649395~exp=1695652995~hmac=2ed76c9ece6755f56914ef9d7bbc74dd73dcd8ad4723190beb8152c446a4b6ec&w=1060",
+    "price": "799,99",
+    "colors": ["#f5f5f4", "#1c1917"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Furniture Sets",
+    "title": "Elegant furniture set",
+    "image": "https://img.freepik.com/free-photo/rustic-patio-with-deck-furniture-vegetation_23-2150698346.jpg?t=st=1695649849~exp=1695653449~hmac=52959e06e1d8035c6eb7ae75bec4c72286c6625a7afdf4cf2ed8ea09b19cae1f&w=1380",
+    "price": "1,800",
+    "colors": ["#fdba74", "#262626", "#4ade80"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Furniture Sets",
+    "title": "Wood set",
+    "image": "https://img.freepik.com/free-photo/rustic-patio-furniture-house-deck-with-vegetation_23-2150698294.jpg?t=st=1695649961~exp=1695653561~hmac=f4c8fdaced5f70698b3db854a2202ec8c7efbccbf71aefb7e828eac999600edd&w=1380",
+    "price": "499,99",
+    "colors": ["#422006", "#292524"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Furniture Sets",
+    "title": "Modern set",
+    "image": "https://img.freepik.com/free-photo/rustic-patio-with-deck-furniture-vegetation_23-2150698340.jpg?t=st=1695650067~exp=1695653667~hmac=c2a2c25eda6d6f5efdac97efa3af1a7ac7ba24e305793ebf7ef7b0178c8275d8&w=740",
+    "price": "1,300",
+    "colors": ["#fdba74", "#404040"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Furniture Sets",
+    "title": "Classic set",
+    "image": "https://img.freepik.com/free-photo/rustic-patio-with-deck-furniture-vegetation_23-2150698370.jpg?t=st=1695650195~exp=1695653795~hmac=f2c94a4e18f22b00b67c91c988333ac24401e0c67b23ab6c900a2cfcd00c197a&w=740",
+    "price": "299,99",
+    "colors": ["#422006", "#b45309"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Lanterns",
+    "title": "Antique lantern",
+    "image": "https://img.freepik.com/free-photo/antique-lantern-glowing-arabic-tree-generated-by-ai_188544-10136.jpg?t=st=1695650579~exp=1695654179~hmac=20c9f2bdeee6705eb95fbb3e61453da722d0d60f261780b30daa1638904fc341&w=1380",
+    "price": "299,99",
+    "colors": ["#422006", "#a16207"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Lanterns",
+    "title": "Paper lanterns",
+    "image": "https://img.freepik.com/free-photo/glowing-paper-lanterns-illuminate-winter-night-generated-by-ai_188544-36782.jpg?t=st=1695650779~exp=1695654379~hmac=68c00157b806ffcecf55b19862a11ce58b394516877bfddeb46a0241bd54321f&w=1380",
+    "price": "149,99",
+    "colors": ["#fdba74", "#facc15", "#06b6d4", "#a78bfa"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Planters",
+    "title": "Big planters",
+    "image": "https://img.freepik.com/free-photo/modern-architecture-blends-with-nature-s-vibrant-colors-generated-by-ai_188544-30782.jpg?t=st=1695651137~exp=1695654737~hmac=7ebb82a6bfada40f9cb0d248ba4193babfb016d59bbbc66e5d417e939888bd67&w=1380",
+    "price": "699,99",
+    "colors": ["#0c0a09", "#991b1b"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Planters",
+    "title": "Modern planters",
+    "image": "https://img.freepik.com/free-photo/sharp-thorns-adorn-succulent-plant-pottery-vase-generated-by-ai_188544-30961.jpg?t=st=1695651217~exp=1695654817~hmac=f72debacd3b3b7f4a3ec655cf03cd6f1ea98883ae17debb5e1555900a26ec059&w=1380",
+    "price": "59,99",
+    "colors": ["#0c0a09", "#991b1b", "#422006", "#052e16"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Doormats",
+    "title": "Home doormat",
+    "image": "https://images.pexels.com/photos/2950003/pexels-photo-2950003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "19,99",
+    "colors": ["#854d0e", "#3f6212", "#1e40af"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Doormats",
+    "title": "Synthetic doormat",
+    "image": "https://images.pexels.com/photos/15270376/pexels-photo-15270376/free-photo-of-green-synthetic-mat-texture.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "15,99",
+    "colors": ["#15803d", "#06b6d4", "#6366f1"]
+  },
+  {
+    "category": "Outdoor",
+    "subcategory": "Doormats",
+    "title": "Synthetic doormat #2",
+    "image": "https://images.pexels.com/photos/13083598/pexels-photo-13083598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "12,99",
+    "colors": ["#262626", "#09090b", "#450a0a", "#500724"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Luxury light",
+    "image": "https://img.freepik.com/free-photo/luxury-modern-living-room-illuminated-with-elegance-generated-by-ai_188544-18272.jpg?t=st=1695656768~exp=1695660368~hmac=f35f95a2d2a2748e3d24a0ba949ff9ed32fbb02a48ec8f12dcbd6d67130094e2&w=1380",
+    "price": "139,99",
+    "colors": ["#ec4899", "#4f46e5"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Diamond light",
+    "image": "https://img.freepik.com/free-photo/modern-chandelier-shines-luxurious-nightclub-celebration-generated-by-ai_188544-27640.jpg?t=st=1695656850~exp=1695660450~hmac=a7f95224e53dc578ea7b6fc1ea05ac3be9f8f367a663c5d675f1b940ce3f7832&w=1380",
+    "price": "739,99",
+    "colors": ["#a8a29e", "#fecaca"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Vanx lights",
+    "image": "https://img.freepik.com/free-photo/modern-luxury-apartment-with-elegant-decor-illuminated-by-bright-lighting-generated-by-ai_24640-100646.jpg?t=st=1695656933~exp=1695660533~hmac=a62fbcaf86b9199f8a0fadc7106c899e0e6ce6814de709ecdc86472389b19ebb&w=1380",
+    "price": "999,99",
+    "colors": ["#a78bfa", "#f87171"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Hanging lamp",
+    "image": "https://img.freepik.com/free-photo/white-lamp-with-light-it-hanging-from-wall_1340-25052.jpg?t=st=1695657553~exp=1695661153~hmac=d2d740f6a1681c0972aa462896445e2413ebcc7a6b4e0a2274cfc32b4460bded&w=1380",
+    "price": "189,99",
+    "colors": ["#e7e5e4", "#fef08a"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Antique lamps",
+    "image": "https://img.freepik.com/free-photo/glowing-antique-lamp-brightens-old-brick-wall-generated-by-ai_188544-27636.jpg?t=st=1695657642~exp=1695661242~hmac=f75cd81d8c32a1c6c3231e6e7db0dada455a4e56132f95e11c491164fad56983&w=1380",
+    "price": "99,99",
+    "colors": ["#09090b", "#450a0a", "#082f49", "#3b0764"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Ceiling Lights",
+    "title": "Balloon lights",
+    "image": "https://img.freepik.com/free-photo/comfortable-dining-room-with-modern-rustic-elegance-generated-by-ai_188544-21418.jpg?t=st=1695657749~exp=1695661349~hmac=a5cb5e2c0ba87a207af3d32452c0d5486a7feda2b2b3a915564af7d85127e7aa&w=1380",
+    "price": "1,280",
+    "colors": ["#92400e", "#262626"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "Classic lamp",
+    "image": "https://img.freepik.com/free-photo/lamp-hat-are-table_1340-23616.jpg?t=st=1695657852~exp=1695661452~hmac=4071d5cac14272152f4dcfa80e465508cc5cadf1cec89848333f426f9ec3ebd8&w=1380",
+    "price": "84,99",
+    "colors": ["#7c2d12", "#0c0a09"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "2 Antique lamps",
+    "image": "https://img.freepik.com/free-photo/two-lamps-shelf-with-word-love-them_1340-23624.jpg?t=st=1695657929~exp=1695661529~hmac=274db4c51e45f0432aa710fd438900e6bb35f25acb37d0d72de79e77de925deb&w=1380",
+    "price": "149,99",
+    "colors": ["#0c0a09", "#450a0a", "#1e1b4b"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "Luxury lamp",
+    "image": "https://img.freepik.com/free-photo/luxury-modern-room-with-elegant-decoration-lighting-generative-ai_188544-40938.jpg?t=st=1695658062~exp=1695661662~hmac=cfadd7b5eef2acc4a142e96b8866d1a840d4b4398b996d4bbfcdd8e44b6b8502&w=1380",
+    "price": "179,99",
+    "colors": ["#fbbf24", "#d97706", "#facc15"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "Vanx lamp",
+    "image": "https://img.freepik.com/free-photo/lamp-with-word-lamp-it_1340-23634.jpg?t=st=1695658139~exp=1695661739~hmac=e253fea81ba9daf4c77dd15b74ba37d79cd801a90aafaad83659f249664a91d9&w=1380",
+    "price": "59,99",
+    "colors": ["#713f12", "#450a0a"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "Luxury bedroom lamp",
+    "image": "https://img.freepik.com/free-photo/luxury-bedroom-with-modern-design-elegance-generated-by-ai_188544-25078.jpg?t=st=1695658207~exp=1695661807~hmac=2c3f1c3877446cb19cc29e88cc9d7a945d259fe43a75516b96aadd77798d6e1d&w=1380",
+    "price": "299,99",
+    "colors": ["#fde68a", "#fb923c"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "Bedroom lamp",
+    "image": "https://img.freepik.com/free-photo/luxury-bedroom-with-modern-elegance-comfort-generative-ai_188544-32116.jpg?t=st=1695658247~exp=1695661847~hmac=fec53aa0ba14370b9de87ff614544548f8d5087ff2d311757941e077429c3e0f&w=1380",
+    "price": "199,99",
+    "colors": ["#fde68a", "#fb923c"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Baskets & Boxes ",
+    "title": "Mini basket",
+    "image": "https://img.freepik.com/free-photo/woven-wicker-picnic-basket-with-leather-handle-generated-by-ai_188544-13767.jpg?t=st=1695658416~exp=1695662016~hmac=bf907297b1ec5f375658851ced5fcdd508e331efacbf38de948f0f351480fa07&w=1380",
+    "price": "59,99",
+    "colors": ["#713f12", "#b45309"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Baskets & Boxes ",
+    "title": "Set basket + box",
+    "image": "https://images.pexels.com/photos/6209448/pexels-photo-6209448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "49,99",
+    "colors": ["#fdba74", "#92400e"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Baskets & Boxes ",
+    "title": "Mini baskets",
+    "image": "https://images.pexels.com/photos/14828543/pexels-photo-14828543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "19,99",
+    "colors": ["#fdba74", "#92400e"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Baskets & Boxes ",
+    "title": "Set of baskets",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791045.jpg?t=st=1695658814~exp=1695662414~hmac=5ed34688936cc8dadc5bca37ee370c101277b987ed43d0454515504881ff2921&w=740",
+    "price": "49,99",
+    "colors": ["#fdba74", "#92400e"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Vases",
+    "title": "Set vases",
+    "image": "https://img.freepik.com/free-photo/still-life-sunflower-bouquet_23-2150490862.jpg?t=st=1695732854~exp=1695736454~hmac=6d9ccda6cd1840cae50f07c4fd17c2490e079ba207ee1421e4f2afa72c07da9e&w=1380",
+    "price": "79,99",
+    "colors": ["#e5e5e5", "#ef4444", "#18181b"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Vases",
+    "title": "Vanx vase",
+    "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529797.jpg?t=st=1695732828~exp=1695736428~hmac=c7e11a380f07261baa475714d8b410badf4a2a829f1a4f7201727f744a860a14&w=740",
+    "price": "129,99",
+    "colors": ["#fb923c", "#fde68a"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Vases",
+    "title": "Glasses vase",
+    "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529811.jpg?t=st=1695733020~exp=1695736620~hmac=34c3ce2cf8cbd056dc580ace1c47d2dd491801d5501903d904207ce625327959&w=740",
+    "price": "69,99",
+    "colors": ["#a5f3fc", "#60a5fa", "#818cf8"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Vases",
+    "title": "Rustical vase",
+    "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529796.jpg?t=st=1695733200~exp=1695736800~hmac=8491a714de32d8f864acbba4435b10f937bea0d8a79e15334c68d45bebbc31d3&w=740",
+    "price": "89,99",
+    "colors": ["#fb923c", "#854d0e"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Vases",
+    "title": "Modern vase",
+    "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529721.jpg?t=st=1695733271~exp=1695736871~hmac=513abdfa66d55fc23aea2fa1b4a457592c6856be3bb4f0aa1cd82454999a82d5&w=740",
+    "price": "129,99",
+    "colors": ["#e7e5e4", "#fde68a"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Planters",
+    "title": "Classic planter",
+    "image": "https://img.freepik.com/free-photo/monstera-deliciosa-plant-flowerpot-isolated-white-background_1142-32459.jpg?t=st=1695733346~exp=1695736946~hmac=ee749e3f2e0767637d283e20ba94855603cabcee6459f1c7a574c8ffe5e0fa4d&w=826",
+    "price": "19,99",
+    "colors": ["#e5e5e5", "#f87171"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Planters",
+    "title": "Flowerpot",
+    "image": "https://img.freepik.com/free-photo/monstera-deliciosa-plant-flowerpot-isolated-white-background_1142-32433.jpg?t=st=1695733394~exp=1695736994~hmac=11e05f49bbce0f9e2bb10d3e23722f763d6b6cb9a13af0d9e29fd36e5bc21575&w=826",
+    "price": "23,99",
+    "colors": ["#e5e5e5", "#f87171"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Planters",
+    "title": "Math dx design",
+    "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529801.jpg?t=st=1695733473~exp=1695737073~hmac=9701f2da4f6f42405b4eb0e3ca6738b59437d2128390a85e456f7e025c722b71&w=740",
+    "price": "39,99",
+    "colors": ["#e5e5e5", "#86efac"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Picture Frames",
+    "title": "Vanx frame",
+    "image": "https://img.freepik.com/free-photo/white-frame-is-wall-with-vase-flowers-corner_1340-27546.jpg?t=st=1695733599~exp=1695737199~hmac=d17481d8e15136247976246cea46cf1e2f16bd017ad013e9541174b4732273d9&w=1380",
+    "price": "89,99",
+    "colors": ["#f5f5f4", "#0a0a0a", "#422006"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Picture Frames",
+    "title": "Mini frame",
+    "image": "https://img.freepik.com/free-photo/wooden-frame-with-blue-border-is-hanging-wall_1340-24613.jpg?t=st=1695733663~exp=1695737263~hmac=c0ac2172110616ae840d7c056b9f95f2ff0f11cff76f7e06dfb6f723f9676e14&w=1380",
+    "price": "24,99",
+    "colors": ["#431407", "#f5f5f5", "#082f49"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Picture Frames",
+    "title": "Flowers frame",
+    "image": "https://img.freepik.com/free-photo/white-frame-with-flowers-it-white-frame-with-border-that-says-i-love-you_1340-26796.jpg?t=st=1695733740~exp=1695737340~hmac=f91b561fbfe1c4496a0acb002af64b9a80b8caf30c6541b99450f9e522f36b36&w=826",
+    "price": "39,99",
+    "colors": ["#e5e5e5", "#7dd3fc"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Picture Frames",
+    "title": "Kids frame",
+    "image": "https://img.freepik.com/free-photo/gold-box-with-blank-label-it_1340-24602.jpg?t=st=1695733871~exp=1695737471~hmac=015d7a1b740149f377fb1086430361e5c55eb6caa7290c330dd527f70b6a5cdd&w=1380",
+    "price": "15,99",
+    "colors": ["#fb923c", "#059669", "#e11d48", "#7e22ce"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Pillows",
+    "title": "Set pillows",
+    "image": "https://img.freepik.com/free-photo/comfortable-modern-hotel-suite-with-elegant-bedding-generated-by-ai_188544-32642.jpg?t=st=1695734203~exp=1695737803~hmac=b59c9df66064429197031a961fae11682a109dd79cab0af4f85f3b911d17ec8e&w=1380",
+    "price": "129,99",
+    "colors": ["#fef9c3", "#67e8f9"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Pillows",
+    "title": "Home pillows",
+    "image": "https://images.pexels.com/photos/1248583/pexels-photo-1248583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "44,99",
+    "colors": ["#059669", "#064e3b"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Pillows",
+    "title": "Luxury pillows",
+    "image": "https://images.pexels.com/photos/1591047/pexels-photo-1591047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "69,99",
+    "colors": ["#b45309", "#854d0e"]
+  },
+  {
+    "category": "Decor",
+    "subcategory": "Pillows",
+    "title": "Bed pillows",
+    "image": "https://images.pexels.com/photos/3682238/pexels-photo-3682238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "29,99",
+    "colors": ["#f5f5f4", "#18181b"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Mexican wall art",
+    "image": "https://img.freepik.com/free-photo/interior-decoration-inspired-by-mexican-folklore_23-2150711363.jpg?t=st=1695736001~exp=1695739601~hmac=7ab066148b90cf26d3b05dc53637cfc6ec76fc532dc43a3af1d553a1afb93f35&w=740",
+    "price": "399,99",
+    "colors": ["#f59e0b", "#a16207"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Modern art",
+    "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791166.jpg?t=st=1695736123~exp=1695739723~hmac=77e8bc6bf298c9e0871ec521846296cb3920897cf1eaf88c9262d3d12bc30e9f&w=740",
+    "price": "249,99",
+    "colors": ["#b45309", "#a3e635"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Minimalist art",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-designed-furniture_23-2150790988.jpg?t=st=1695736211~exp=1695739811~hmac=36555d33f3cc6bf914bd3cdfd3d30a1790afa3353f7fab0c34d052170def04e2&w=1380",
+    "price": "99,99",
+    "colors": ["#1c1917", "#404040"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Multi colored art",
+    "image": "https://img.freepik.com/free-photo/vibrant-multi-colored-painting-adds-creativity-modern-living-room-decor-generated-by-ai_24640-92908.jpg?t=st=1695736288~exp=1695739888~hmac=a3e1e2fe41def7b191c30ecdcacddc5448339c760f276db330ae2690b27adfb0&w=1380",
+    "price": "599,99",
+    "colors": ["#d97706", "#4d7c0f"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Set",
+    "image": "https://img.freepik.com/free-photo/boho-designed-style-room-background_1409-4252.jpg?t=st=1695748518~exp=1695752118~hmac=e921af6fb675b4dc7c30409481544d6a2b62f4ce7719538cc15dd1441e9cd9b6&w=1380",
+    "price": "399,99",
+    "colors": ["#ca8a04", "#52525b"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Wall Art",
+    "title": "Modern black art",
+    "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791130.jpg?t=st=1695748649~exp=1695752249~hmac=e5376807aeccc9262de7c5f60ff4013e4ba009613f394a06a272123093068b5c&w=740",
+    "price": "1,600",
+    "colors": ["#57534e", "#171717"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Vanx clock",
+    "image": "https://images.pexels.com/photos/3283142/pexels-photo-3283142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "38,99",
+    "colors": ["#0a0a0a", "#991b1b", "#0891b2"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Math dx clock",
+    "image": "https://images.pexels.com/photos/1174776/pexels-photo-1174776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "129,99",
+    "colors": ["#fed7aa", "#f87171"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Kensigton clock",
+    "image": "https://images.pexels.com/photos/211758/pexels-photo-211758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "66,99",
+    "colors": ["#fb923c", "#92400e"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Ralph dx clock",
+    "image": "https://images.pexels.com/photos/834964/pexels-photo-834964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "29,99",
+    "colors": ["#d97706", "#f43f5e"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Sunflower clock",
+    "image": "https://images.pexels.com/photos/1685122/pexels-photo-1685122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "34,99",
+    "colors": ["#fbbf24", "#ca8a04"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Clocks",
+    "title": "Classic clock",
+    "image": "https://images.pexels.com/photos/6077674/pexels-photo-6077674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": "19,99",
+    "colors": ["#f5f5f4", "#fed7aa"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Modern mirror",
+    "image": "https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695873.jpg?t=st=1695748873~exp=1695752473~hmac=e5294749fc4a884e1d1b274aa99c8fddb2c1edfb84cdbe35727f48f6a02d6da0&w=740",
+    "price": "199,99",
+    "colors": ["#1c1917", "#fdba74"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Vanx design",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791014.jpg?t=st=1695748884~exp=1695752484~hmac=a41b376ddd767da424f5581628cc4e547912ee9a64c12782412b73cfd08f556a&w=740",
+    "price": "49,99",
+    "colors": ["#fb923c", "#78716c"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Xl mirror",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-designed-furniture_23-2150790954.jpg?t=st=1695748887~exp=1695752487~hmac=c8bd1ccecb6d030a0aad4b2fd4affb6c936a19d70d3cb37cb20361276fe17ccf&w=1380",
+    "price": "99,99",
+    "colors": ["#78350f", "#1c1917"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Wood mirror",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791018.jpg?t=st=1695749662~exp=1695753262~hmac=74bc6645daf8139a791ed653db3a7e701eeb9d16e847c261c7b8626e188bd8db&w=740",
+    "price": "39,99",
+    "colors": ["#451a03", "#1c1917"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Diamond mirror",
+    "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791072.jpg?t=st=1695749704~exp=1695753304~hmac=738e0fccc5d1263a5de71f139c202414c22964a2e01cec1c2a61b69e0a19fe32&w=740",
+    "price": "159,99",
+    "colors": ["#f5f5f5", "#fb923c"]
+  },
+  {
+    "category": "Wall Decor",
+    "subcategory": "Mirrors",
+    "title": "Bath mirror",
+    "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694906.jpg?t=st=1695749811~exp=1695753411~hmac=503e3133d746270660afdb990978afc98e928ba2a9d05fadf6ae27b3fb7493e1&w=740",
+    "price": "69,99",
+    "colors": ["#f5f5f4", "#92400e"]
+  }
+]

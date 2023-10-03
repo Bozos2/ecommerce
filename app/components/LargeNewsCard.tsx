@@ -25,8 +25,8 @@ const LargeNewsCard: React.FC<{
     <div className="relative grid grid-cols-1 sm:grid-cols-2  w-[320px] sm:max-w-[1180px] sm:w-full h-[480px] sm:h-[260px] lg:h-[380px] z-0 mb-4 mx-2 sm:mx-12 xl:mx-0 p-2 border-2 border-gray-300 rounded-lg sm:border-none cursor-pointer transition ease-in duration-500 hover:-translate-y-1  hover:scale-110">
       <div className="relative  h-[220px] lg:h-full">
         <Image
-          layout="fill"
-          objectFit="cover"
+          fill
+          objectFit={"cover"}
           src={props.src}
           alt="Picture of the post"
           /* width={550}
@@ -45,6 +45,7 @@ const LargeNewsCard: React.FC<{
             style={avatarStyle}
             priority
           />
+
           <p className="text-sm sm:text-base pt-2 pl-2 font-light">
             {props.author} {`\u2022`}
             <span className="text-xs lg:text-sm  pl-4">{props.published}</span>
