@@ -1,5 +1,4 @@
 import Image from "next/image";
-import image1 from "../assets/background.jpg";
 
 interface CardProps {
   src: string;

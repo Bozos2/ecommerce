@@ -57,7 +57,7 @@
   },
   {
     "category": "Furniture",
-    "subcategory": "Coffe Tables",
+    "subcategory": "Coffee Tables",
     "title": "wooden table",
     "image": "https://img.freepik.com/free-photo/indoor-modern-design-with-wooden-chair-vase-generated-by-ai_188544-21718.jpg?t=st=1695473693~exp=1695477293~hmac=0a9288bf6796cc10fc46ba5b0fef66f5b9a0e911ebbf5d968733b788eb51053b&w=1380",
     "price": "199.99",
@@ -65,7 +65,7 @@
   },
   {
     "category": "Furniture",
-    "subcategory": "Coffe Tables",
+    "subcategory": "Coffee Tables",
     "title": "Ball table",
     "image": "https://img.freepik.com/free-photo/interior-space-decorated-boho-style_23-2150771541.jpg?t=st=1695474140~exp=1695477740~hmac=28bc301e4dad759557393cef0e9d653ba36a74f84075753ad7ddc2f43cb1cbab&w=1380",
     "price": "499.99",
@@ -73,7 +73,7 @@
   },
   {
     "category": "Furniture",
-    "subcategory": "Coffe tables",
+    "subcategory": "Coffee tables",
     "title": "Rustical table",
     "image": "https://images.pexels.com/photos/6707628/pexels-photo-6707628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "price": "299.99",
@@ -81,7 +81,7 @@
   },
   {
     "category": "Furniture",
-    "subcategory": "Coffe Tables",
+    "subcategory": "Coffee Tables",
     "title": "Wooden table",
     "image": "https://img.freepik.com/free-photo/sofa-living-room-decorated-with-brazilian-folklore-design_23-2150794211.jpg?t=st=1695474224~exp=1695477824~hmac=7f5f5d7347c47cbcb1a6422a4543ffdd2633688a0743fec93ddb54e197cad0f2&w=1380",
     "price": "649.99",
@@ -617,7 +617,7 @@
   },
   {
     "category": "Kitchen",
-    "subcategory": "Coffe Makers",
+    "subcategory": "Coffee Makers",
     "title": "Coffe maker xl",
     "image": "https://img.freepik.com/free-photo/view-coffee-making-machine_23-2150698701.jpg?t=st=1695649193~exp=1695652793~hmac=0a6bf360091c89949e2a32dbb05ab474a9e0266d6d745914a647e62bbcb6991d&w=1380",
     "price": "899,99",
@@ -625,7 +625,7 @@
   },
   {
     "category": "Kitchen",
-    "subcategory": "Coffe Makers",
+    "subcategory": "Coffee Makers",
     "title": "Retro coffe maker",
     "image": "https://img.freepik.com/free-photo/barista-making-fresh-cappuccino-espresso-machine-generated-by-ai_188544-36062.jpg?t=st=1695649327~exp=1695652927~hmac=5b1fc7a6738a56e269e858804f4e98b753a396422447d1fed7feda555f903de2&w=1380",
     "price": "1,200",
@@ -633,7 +633,7 @@
   },
   {
     "category": "Kitchen",
-    "subcategory": "Coffe Makers",
+    "subcategory": "Coffee Makers",
     "title": "Home coffie maker",
     "image": "https://img.freepik.com/free-photo/coffee-ai-generated_23-2150691627.jpg?t=st=1695649395~exp=1695652995~hmac=2ed76c9ece6755f56914ef9d7bbc74dd73dcd8ad4723190beb8152c446a4b6ec&w=1060",
     "price": "799,99",
@@ -833,7 +833,7 @@
   },
   {
     "category": "Decor",
-    "subcategory": "Baskets & Boxes ",
+    "subcategory": "Baskets & Boxes",
     "title": "Set basket + box",
     "image": "https://images.pexels.com/photos/6209448/pexels-photo-6209448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "price": "49,99",
@@ -841,7 +841,7 @@
   },
   {
     "category": "Decor",
-    "subcategory": "Baskets & Boxes ",
+    "subcategory": "Baskets & Boxes",
     "title": "Mini baskets",
     "image": "https://images.pexels.com/photos/14828543/pexels-photo-14828543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "price": "19,99",
@@ -849,7 +849,7 @@
   },
   {
     "category": "Decor",
-    "subcategory": "Baskets & Boxes ",
+    "subcategory": "Baskets & Boxes",
     "title": "Set of baskets",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791045.jpg?t=st=1695658814~exp=1695662414~hmac=5ed34688936cc8dadc5bca37ee370c101277b987ed43d0454515504881ff2921&w=740",
     "price": "49,99",
@@ -984,7 +984,7 @@
     "colors": ["#f5f5f4", "#18181b"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Mexican wall art",
     "image": "https://img.freepik.com/free-photo/interior-decoration-inspired-by-mexican-folklore_23-2150711363.jpg?t=st=1695736001~exp=1695739601~hmac=7ab066148b90cf26d3b05dc53637cfc6ec76fc532dc43a3af1d553a1afb93f35&w=740",
@@ -992,7 +992,7 @@
     "colors": ["#f59e0b", "#a16207"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Modern art",
     "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791166.jpg?t=st=1695736123~exp=1695739723~hmac=77e8bc6bf298c9e0871ec521846296cb3920897cf1eaf88c9262d3d12bc30e9f&w=740",
@@ -1000,7 +1000,7 @@
     "colors": ["#b45309", "#a3e635"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Minimalist art",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-designed-furniture_23-2150790988.jpg?t=st=1695736211~exp=1695739811~hmac=36555d33f3cc6bf914bd3cdfd3d30a1790afa3353f7fab0c34d052170def04e2&w=1380",
@@ -1008,7 +1008,7 @@
     "colors": ["#1c1917", "#404040"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Multi colored art",
     "image": "https://img.freepik.com/free-photo/vibrant-multi-colored-painting-adds-creativity-modern-living-room-decor-generated-by-ai_24640-92908.jpg?t=st=1695736288~exp=1695739888~hmac=a3e1e2fe41def7b191c30ecdcacddc5448339c760f276db330ae2690b27adfb0&w=1380",
@@ -1016,7 +1016,7 @@
     "colors": ["#d97706", "#4d7c0f"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Set",
     "image": "https://img.freepik.com/free-photo/boho-designed-style-room-background_1409-4252.jpg?t=st=1695748518~exp=1695752118~hmac=e921af6fb675b4dc7c30409481544d6a2b62f4ce7719538cc15dd1441e9cd9b6&w=1380",
@@ -1024,7 +1024,7 @@
     "colors": ["#ca8a04", "#52525b"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Wall Art",
     "title": "Modern black art",
     "image": "https://img.freepik.com/free-photo/home-entryway-with-modern-furnishing-design_23-2150791130.jpg?t=st=1695748649~exp=1695752249~hmac=e5376807aeccc9262de7c5f60ff4013e4ba009613f394a06a272123093068b5c&w=740",
@@ -1032,7 +1032,7 @@
     "colors": ["#57534e", "#171717"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Vanx clock",
     "image": "https://images.pexels.com/photos/3283142/pexels-photo-3283142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1040,7 +1040,7 @@
     "colors": ["#0a0a0a", "#991b1b", "#0891b2"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Math dx clock",
     "image": "https://images.pexels.com/photos/1174776/pexels-photo-1174776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1048,7 +1048,7 @@
     "colors": ["#fed7aa", "#f87171"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Kensigton clock",
     "image": "https://images.pexels.com/photos/211758/pexels-photo-211758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1056,7 +1056,7 @@
     "colors": ["#fb923c", "#92400e"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Ralph dx clock",
     "image": "https://images.pexels.com/photos/834964/pexels-photo-834964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1064,7 +1064,7 @@
     "colors": ["#d97706", "#f43f5e"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Sunflower clock",
     "image": "https://images.pexels.com/photos/1685122/pexels-photo-1685122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1072,7 +1072,7 @@
     "colors": ["#fbbf24", "#ca8a04"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Clocks",
     "title": "Classic clock",
     "image": "https://images.pexels.com/photos/6077674/pexels-photo-6077674.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -1080,7 +1080,7 @@
     "colors": ["#f5f5f4", "#fed7aa"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Modern mirror",
     "image": "https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695873.jpg?t=st=1695748873~exp=1695752473~hmac=e5294749fc4a884e1d1b274aa99c8fddb2c1edfb84cdbe35727f48f6a02d6da0&w=740",
@@ -1088,7 +1088,7 @@
     "colors": ["#1c1917", "#fdba74"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Vanx design",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791014.jpg?t=st=1695748884~exp=1695752484~hmac=a41b376ddd767da424f5581628cc4e547912ee9a64c12782412b73cfd08f556a&w=740",
@@ -1096,7 +1096,7 @@
     "colors": ["#fb923c", "#78716c"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Xl mirror",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-designed-furniture_23-2150790954.jpg?t=st=1695748887~exp=1695752487~hmac=c8bd1ccecb6d030a0aad4b2fd4affb6c936a19d70d3cb37cb20361276fe17ccf&w=1380",
@@ -1104,7 +1104,7 @@
     "colors": ["#78350f", "#1c1917"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Wood mirror",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791018.jpg?t=st=1695749662~exp=1695753262~hmac=74bc6645daf8139a791ed653db3a7e701eeb9d16e847c261c7b8626e188bd8db&w=740",
@@ -1112,7 +1112,7 @@
     "colors": ["#451a03", "#1c1917"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Diamond mirror",
     "image": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791072.jpg?t=st=1695749704~exp=1695753304~hmac=738e0fccc5d1263a5de71f139c202414c22964a2e01cec1c2a61b69e0a19fe32&w=740",
@@ -1120,7 +1120,7 @@
     "colors": ["#f5f5f5", "#fb923c"]
   },
   {
-    "category": "Wall Decor",
+    "category": "Walls",
     "subcategory": "Mirrors",
     "title": "Bath mirror",
     "image": "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-ai-generated_23-2150694906.jpg?t=st=1695749811~exp=1695753411~hmac=503e3133d746270660afdb990978afc98e928ba2a9d05fadf6ae27b3fb7493e1&w=740",

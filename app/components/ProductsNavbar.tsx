@@ -87,10 +87,10 @@ const ProductsNavbar = () => {
           </li>
           <li className="py-2 pl-3 flex flex-row justify-between">
             <Link
-              href="/products/outdoors"
+              href="/products/outdoor"
               className="flex flex-row items-center gap-8"
             >
-              <OutdoorsIcon /> Outdoors
+              <OutdoorsIcon /> Outdoor
             </Link>
             <div className="cursor-pointer" onClick={toggleOutdoorsSubcategory}>
               <RightArrow />
@@ -120,7 +120,7 @@ const ProductsNavbar = () => {
           </li>
           <li className="py-2 pl-3 flex flex-row justify-between">
             <Link
-              href="/products/walldecor"
+              href={`/products/${encodeURIComponent("Wall Decor")}`}
               className="flex flex-row items-center gap-8"
             >
               <WallDecorIcon /> Walls
@@ -137,15 +137,29 @@ const ProductsNavbar = () => {
                 <Link href="/products/furniture/sofas">Sofas</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/coffe-tables">
+                <Link
+                  href={`/products/furniture/${encodeURIComponent(
+                    "coffee tables"
+                  )}`}
+                >
                   Coffee Tables
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/tvstands">Tv Stands</Link>
+                <Link
+                  href={`/products/furniture/${encodeURIComponent(
+                    "tv stands"
+                  )}`}
+                >
+                  Tv Stands
+                </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/poufsottomans">
+                <Link
+                  href={`/products/furniture/${encodeURIComponent(
+                    "poufs & ottomans"
+                  )}`}
+                >
                   Poufs & Ottomans
                 </Link>
               </li>
@@ -159,129 +173,199 @@ const ProductsNavbar = () => {
                 <Link href="/products/furniture/nightstands">Nightstands</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/diningsets">Dining Sets</Link>
+                <Link
+                  href={`/products/furniture/${encodeURIComponent(
+                    "dining sets"
+                  )}`}
+                >
+                  Dining Sets
+                </Link>
               </li>
             </ul>
           )}
           {showBathSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[104px] rounded-r-xl border-sky-700 py-2 pl-4 pr-12 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/bathtowels">Bath Towels</Link>
+                <Link
+                  href={`/products/bath/${encodeURIComponent("bath towels")}`}
+                >
+                  Bath Towels
+                </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/bathvanities">
+                <Link
+                  href={`/products/bath/${encodeURIComponent("bath vanities")}`}
+                >
                   Bath Vanities
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/tubs">Tubs</Link>
+                <Link href="/products/bath/tubs">Tubs</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/showers">Showers</Link>
+                <Link href="/products/bath/showers">Showers</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/toilets">Toilets</Link>
+                <Link href="/products/bath/toilets">Toilets</Link>
               </li>
             </ul>
           )}
           {showKitchenSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[52px] rounded-r-xl border-sky-700 py-2 pl-4 pr-5 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/diningbowls">Dining Bowls</Link>
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "dining bowls"
+                  )}`}
+                >
+                  Dining Bowls
+                </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/flatwaresets">
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "flatware sets"
+                  )}`}
+                >
                   Flatware Sets
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/dinnerwaresets">
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "dinnerware sets"
+                  )}`}
+                >
                   Dinnerware Sets
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/winechampagneglasses">
-                  Wine & Champagne glasses
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "wine & champagne Glasses"
+                  )}`}
+                >
+                  Wine & Champagne Glasses
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/drinkingglasses">
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "drinking glasses"
+                  )}`}
+                >
                   Drinking Glasses
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/mugsteacups">
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "mugs & teacups"
+                  )}`}
+                >
                   Mugs & Teacups
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/coffemakers">Coffe Makers</Link>
+                <Link
+                  href={`/products/kitchen/${encodeURIComponent(
+                    "coffee makers"
+                  )}`}
+                >
+                  Coffee Makers
+                </Link>
               </li>
             </ul>
           )}
           {showOutdoorsSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[156px] rounded-r-xl border-sky-700 py-2 pl-4 pr-12 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/furnituresets">
+                <Link
+                  href={`/products/outdoor/${encodeURIComponent(
+                    "furniture sets"
+                  )}`}
+                >
                   Furniture Sets
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/lanterns">Lanterns</Link>
+                <Link href="/products/outdoor/lanterns">Lanterns</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/planters">Planters</Link>
+                <Link href="/products/outdoor/planters">Planters</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/doormats">Doormats</Link>
+                <Link href="/products/outdoor/doormats">Doormats</Link>
               </li>
             </ul>
           )}
           {showLightingSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[260px] rounded-r-xl border-sky-700 py-2 pl-4 pr-12 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/ceilinglights">
+                <Link
+                  href={`/products/lighting/${encodeURIComponent(
+                    "ceiling lights"
+                  )}`}
+                >
                   Ceiling Lights
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/tablelamps">Table Lamps</Link>
+                <Link
+                  href={`/products/lighting/${encodeURIComponent(
+                    "table lamps"
+                  )}`}
+                >
+                  Table Lamps
+                </Link>
               </li>
             </ul>
           )}
           {showDecorSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[98px] rounded-r-xl border-sky-700 py-2 pl-4 pr-12 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/basketsboxes">
+                <Link
+                  href={`/products/decor/${encodeURIComponent(
+                    "baskets & boxes"
+                  )}`}
+                >
                   Baskets & Boxes
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/vases">Vases</Link>
+                <Link href="/products/decor/vases">Vases</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/planters">Planters</Link>
+                <Link href="/products/decor/planters">Planters</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/pictureframes">
+                <Link
+                  href={`/products/decor/${encodeURIComponent(
+                    "picture frames"
+                  )}`}
+                >
                   Picture Frames
                 </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/pillows">Pillows</Link>
+                <Link href="/products/decor/pillows">Pillows</Link>
               </li>
             </ul>
           )}
           {showWallsSubcategory && (
             <ul className="border-y-2 border-r-2 mt-[266px] rounded-r-xl border-sky-700 py-2 pl-4 pr-12 font-semibold">
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/wallart">Wall art</Link>
+                <Link
+                  href={`/products/walls/${encodeURIComponent("wall art")}`}
+                >
+                  Wall Art
+                </Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/clocks">Clocks</Link>
+                <Link href="/products/walls/clocks">Clocks</Link>
               </li>
               <li className="py-2 hover:underline">
-                <Link href="/products/furniture/mirrors">Mirrors</Link>
+                <Link href="/products/walls/mirrors">Mirrors</Link>
               </li>
             </ul>
           )}

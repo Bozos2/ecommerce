@@ -13,8 +13,10 @@ import SalesSVG from "../assets/NavbarIcons/Sales";
 import ProductsSVG from "../assets/NavbarIcons/Products";
 import ContactSVG from "../assets/NavbarIcons/Contact";
 import CartSVG from "../assets/NavbarIcons/Cart";
-import avatar from "../assets/woman-avatar.jpg";
-import Guest from "../assets/Guest.png";
+import GuestOther from "../assets/ProfileIcons/guest-other.png";
+import Male from "../assets/ProfileIcons/maleProfile.png";
+import Female from "../assets/ProfileIcons/femaleProfile.png";
+import CartButton from "./CartButton";
 
 import HomeNavbar from "./HomeNavbar";
 
@@ -55,15 +57,34 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="hidden lg:flex justify-center">
+              <div className="h-[42px] mr-4">
+                <CartButton />
+              </div>
               {session ? (
                 <div className="flex flex-row">
                   <div className="mt-1">
-                    <Avatar
-                      size="40"
-                      round="120px"
-                      src={avatar.src}
-                      style={{ cursor: "pointer" }}
-                    />
+                    {session?.user?.gender === "Male" ? (
+                      <Avatar
+                        size="40"
+                        round="120px"
+                        src={Male.src}
+                        style={{ cursor: "pointer" }}
+                      />
+                    ) : session?.user?.gender === "Female" ? (
+                      <Avatar
+                        size="40"
+                        round="120px"
+                        src={Female.src}
+                        style={{ cursor: "pointer" }}
+                      />
+                    ) : (
+                      <Avatar
+                        size="40"
+                        round="120px"
+                        src={GuestOther.src}
+                        style={{ cursor: "pointer" }}
+                      />
+                    )}
                   </div>
                   <h4 className="p-3 font-nunito cursor-pointer hover:underline">
                     {session?.user?.fullName}
@@ -101,21 +122,45 @@ const Navbar = () => {
             >
               <div>
                 {session ? (
-                  <>
-                    <Avatar
-                      size="110"
-                      round="120px"
-                      src={avatar.src}
-                      style={{ cursor: "pointer" }}
-                    />
-                    <h4 className="pt-3">{session?.user?.fullName}</h4>
-                  </>
+                  <div>
+                    {session?.user?.gender === "Male" ? (
+                      <>
+                        <Avatar
+                          size="110"
+                          round="120px"
+                          src={Male.src}
+                          style={{ cursor: "pointer" }}
+                        />
+                        <h4 className="pt-3">{session?.user?.fullName}</h4>
+                      </>
+                    ) : session?.user?.gender === "Female" ? (
+                      <>
+                        <Avatar
+                          size="110"
+                          round="120px"
+                          src={Female.src}
+                          style={{ cursor: "pointer" }}
+                        />
+                        <h4 className="pt-3">{session?.user?.fullName}</h4>
+                      </>
+                    ) : (
+                      <>
+                        <Avatar
+                          size="110"
+                          round="120px"
+                          src={GuestOther.src}
+                          style={{ cursor: "pointer" }}
+                        />
+                        <h4 className="pt-3">{session?.user?.fullName}</h4>
+                      </>
+                    )}
+                  </div>
                 ) : (
                   <>
                     <Avatar
                       size="110"
                       round="120px"
-                      src={Guest.src}
+                      src={GuestOther.src}
                       style={{ cursor: "pointer" }}
                     />
                     <h4 className="pt-3">Guest</h4>
