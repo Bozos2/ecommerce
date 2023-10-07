@@ -120,7 +120,7 @@ const ProductsNavbar = () => {
           </li>
           <li className="py-2 pl-3 flex flex-row justify-between">
             <Link
-              href={`/products/${encodeURIComponent("Wall Decor")}`}
+              href="/products/walls"
               className="flex flex-row items-center gap-8"
             >
               <WallDecorIcon /> Walls

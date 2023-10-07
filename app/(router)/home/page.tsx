@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Home = () => {
   return (
     <div className="flex items-center justify-center h-screen  bg-fixed bg-center bg-cover custom-img">
@@ -11,9 +13,12 @@ const Home = () => {
           Design your home with us
         </p>
         <div className="flex justify-center">
-          <button className="mt-6 px-8 py-2 border rounded hover:bg-sky-700  transition ease-in duration-300 hover:-translate-y-2 hover:scale-110">
+          <Link
+            href="/products"
+            className="mt-6 px-8 py-2 border rounded hover:bg-sky-700  transition ease-in duration-300 hover:-translate-y-2 hover:scale-110"
+          >
             Products
-          </button>
+          </Link>
         </div>
       </div>
     </div>

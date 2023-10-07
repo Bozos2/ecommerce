@@ -1,15 +1,8 @@
 import Image from "next/image";
 
-interface CardProps {
-  src: string;
-  category: string;
-  subcategory: string;
-  title: string;
-  colors: string[];
-  price: string;
-}
+import { ProductProps } from "../types";
 
-const ProductsCard: React.FC<CardProps> = (props) => {
+const ProductsCard: React.FC<ProductProps> = (props) => {
   const colorDivs = props.colors.map((color, index) => (
     <div
       key={index}

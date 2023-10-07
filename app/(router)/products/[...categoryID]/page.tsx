@@ -1,5 +1,3 @@
-import { ObjectId } from "mongodb";
-
 import ProductsNavbar from "@/app/components/ProductsNavbar";
 import ProductsCard from "@/app/components/ProductsCard";
 import { fetchData } from "@/app/lib/fetchData";
