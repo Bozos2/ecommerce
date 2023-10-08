@@ -25,6 +25,7 @@ export interface CartItem {
   title: string;
   color: string;
   price: string;
+  amount: number | 1;
 }
 
 export enum ActionType {
@@ -40,7 +41,7 @@ export interface AddToCartAction {
 
 export interface RemoveFromCartAction {
   type: ActionType.REMOVE;
-  itemId: string;
+  id: string;
 }
 
 export interface ClearCartAction {
@@ -52,14 +53,10 @@ export type CartAction =
   | RemoveFromCartAction
   | ClearCartAction;
 
-export interface CartState {
+export interface CartContextState {
   items: CartItem[];
   totalAmount: number;
   addItem: (item: CartItem) => void;
   removeItem: (id: string) => void;
-}
-
-export interface CartContextType {
-  state: CartState;
-  dispatch: React.Dispatch<CartState>;
+  clearItems: () => void;
 }

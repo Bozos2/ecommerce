@@ -1,6 +1,6 @@
 import React from "react";
-import { CartContextType } from "../types";
+import { CartContextState } from "../types";
 
-const cartContext = React.createContext({} as CartContextType);
+const cartContext = React.createContext({} as CartContextState);
 
 export default cartContext;
