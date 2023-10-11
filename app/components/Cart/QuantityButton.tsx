@@ -1,17 +1,24 @@
+"use client";
+
 import React, { useState } from "react";
 
-const QuantityButton = () => {
-  const [quantity, setQuantity] = useState(1);
+interface QuantityButtonProps {
+  amount: number;
+  onUpdateAmount: (newAmount: number) => void;
+}
+
+const QuantityButton: React.FC<QuantityButtonProps> = (props) => {
+  const { amount, onUpdateAmount } = props;
 
   const incrementQuantity = () => {
-    if (quantity < 5) {
-      setQuantity(quantity + 1);
+    if (amount < 5) {
+      onUpdateAmount(amount + 1);
     }
   };
 
   const decrementQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
+    if (amount > 1) {
+      onUpdateAmount(amount - 1);
     }
   };
 
@@ -23,7 +30,7 @@ const QuantityButton = () => {
       >
         -
       </button>
-      <div className="bg-gray-200 px-3 py-1">{quantity}</div>
+      <div className="bg-gray-200 px-3 py-1">{amount}</div>
       <button
         onClick={incrementQuantity}
         className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-3 rounded-r"

@@ -16,7 +16,7 @@ import CartSVG from "../assets/NavbarIcons/Cart";
 import GuestOther from "../assets/ProfileIcons/guest-other.png";
 import Male from "../assets/ProfileIcons/maleProfile.png";
 import Female from "../assets/ProfileIcons/femaleProfile.png";
-import CartButton from "./CartButton";
+import CartButton from "./Cart/CartButton";
 
 import HomeNavbar from "./HomeNavbar";
 

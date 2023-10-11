@@ -11,7 +11,7 @@ import SalesSVG from "../assets/NavbarIcons/Sales";
 import ProductsSVG from "../assets/NavbarIcons/Products";
 import ContactSVG from "../assets/NavbarIcons/Contact";
 import CartSVG from "../assets/NavbarIcons/Cart";
-import CartButton from "./CartButton";
+import CartButton from "./Cart/CartButton";
 import GuestOther from "../assets/ProfileIcons/guest-other.png";
 import Female from "../assets/ProfileIcons/femaleProfile.png";
 import Male from "../assets/ProfileIcons/maleProfile.png";

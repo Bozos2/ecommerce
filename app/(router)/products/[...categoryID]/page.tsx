@@ -37,6 +37,7 @@ export default async function Page({
         {sortedProducts.map((data) => (
           <ProductsCard
             key={data._id.toString()}
+            id={data._id.toString()}
             src={data.image}
             category={data.category}
             subcategory={data.subcategory}

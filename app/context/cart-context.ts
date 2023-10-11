@@ -1,6 +1,17 @@
 import React from "react";
-import { CartContextState } from "../types";
+import { CartContextStateType } from "../types";
 
-const cartContext = React.createContext({} as CartContextState);
+const cartContextStateDefaultValues: CartContextStateType = {
+  items: [],
+  totalAmount: 0,
+  addItem: (item) => {},
+  removeItem: (id) => {},
+  clearItems: () => {},
+  updateItemAmount: (id, newAmount) => {},
+};
 
-export default cartContext;
+const CartContext = React.createContext<CartContextStateType>(
+  cartContextStateDefaultValues
+);
+
+export { CartContext };

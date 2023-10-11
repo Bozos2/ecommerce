@@ -1,8 +1,23 @@
+"use client";
+
 import Image from "next/image";
 
 import { ProductProps } from "../types";
+import { useCartContext } from "../context/cart-reducer";
 
 const ProductsCard: React.FC<ProductProps> = (props) => {
+  const cartCtx = useCartContext();
+  const addToCarthandler = () => {
+    cartCtx.addItem({
+      id: props.id,
+      src: props.src,
+      title: props.title,
+      color: props.colors[0],
+      price: props.price,
+      amount: 1,
+    });
+  };
+
   const colorDivs = props.colors.map((color, index) => (
     <div
       key={index}
@@ -32,7 +47,12 @@ const ProductsCard: React.FC<ProductProps> = (props) => {
           <div className="flex justify-center gap-2 mt-2">{colorDivs}</div>
           <h2 className="mt-2 font-bold text-2xl">{props.price}$</h2>
           <div className="flex justify-end">
-            <button className="bg-sky-600 py-2 px-14 mt-6 rounded-xl text-white font-bold hover:border-2 hover:border-sky-600 hover:bg-slate-200 hover:text-sky-600 transition ease-in  duration-500">
+            <button
+              onClick={() => {
+                addToCarthandler();
+              }}
+              className="bg-sky-600 py-2 px-14 mt-6 rounded-xl text-white font-bold hover:border-2 hover:border-sky-600 hover:bg-slate-200 hover:text-sky-600 transition ease-in  duration-500"
+            >
               Add to Cart
             </button>
           </div>

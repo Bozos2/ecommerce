@@ -11,12 +11,13 @@ export interface LoginUserData {
 }
 
 export interface ProductProps {
+  id: string;
   src: string;
   category: string;
   subcategory: string;
   title: string;
   colors: string[];
-  price: string;
+  price: number;
 }
 
 export interface CartItem {
@@ -24,7 +25,7 @@ export interface CartItem {
   src: string;
   title: string;
   color: string;
-  price: string;
+  price: number;
   amount: number | 1;
 }
 
@@ -32,6 +33,7 @@ export enum ActionType {
   ADD,
   REMOVE,
   CLEAR,
+  UPDATE_VALUE,
 }
 
 export interface AddToCartAction {
@@ -48,15 +50,23 @@ export interface ClearCartAction {
   type: ActionType.CLEAR;
 }
 
+export interface UpdateItemAmountAction {
+  type: ActionType.UPDATE_VALUE;
+  id: string;
+  newAmount: number;
+}
+
 export type CartAction =
   | AddToCartAction
   | RemoveFromCartAction
-  | ClearCartAction;
+  | ClearCartAction
+  | UpdateItemAmountAction;
 
-export interface CartContextState {
+export interface CartContextStateType {
   items: CartItem[];
   totalAmount: number;
   addItem: (item: CartItem) => void;
   removeItem: (id: string) => void;
   clearItems: () => void;
+  updateItemAmount: (id: string, newAmount: number) => void;
 }

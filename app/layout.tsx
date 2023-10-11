@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Nunito, Oswald } from "next/font/google";
 
 import AuthProvider from "./context/AuthProvider";
+import CartProvider from "./context/cart-reducer";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -32,11 +33,13 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
       <body className={`${nunito.variable} ${oswald.variable}`}>
-        <AuthProvider>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </AuthProvider>
+        <CartProvider>
+          <AuthProvider>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+          </AuthProvider>
+        </CartProvider>
       </body>
     </html>
   );
