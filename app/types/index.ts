@@ -46,10 +46,6 @@ export interface RemoveFromCartAction {
   id: string;
 }
 
-export interface ClearCartAction {
-  type: ActionType.CLEAR;
-}
-
 export interface UpdateItemAmountAction {
   type: ActionType.UPDATE_VALUE;
   id: string;
@@ -59,7 +55,6 @@ export interface UpdateItemAmountAction {
 export type CartAction =
   | AddToCartAction
   | RemoveFromCartAction
-  | ClearCartAction
   | UpdateItemAmountAction;
 
 export interface CartContextStateType {
@@ -67,6 +62,5 @@ export interface CartContextStateType {
   totalAmount: number;
   addItem: (item: CartItem) => void;
   removeItem: (id: string) => void;
-  clearItems: () => void;
   updateItemAmount: (id: string, newAmount: number) => void;
 }

@@ -10,7 +10,7 @@ import NewsSVG from "../assets/NavbarIcons/News";
 import SalesSVG from "../assets/NavbarIcons/Sales";
 import ProductsSVG from "../assets/NavbarIcons/Products";
 import ContactSVG from "../assets/NavbarIcons/Contact";
-import CartSVG from "../assets/NavbarIcons/Cart";
+
 import CartButton from "./Cart/CartButton";
 import GuestOther from "../assets/ProfileIcons/guest-other.png";
 import Female from "../assets/ProfileIcons/femaleProfile.png";
@@ -220,16 +220,10 @@ const HomeNavbar = () => {
                 Contact
               </Link>
             </li>
-            <li
-              onClick={handleNav}
-              className="flex flex-row  gap-16 p-2 text-lg hover:text-zinc-400 border-b-2 border-opacity-30 border-white"
-            >
-              <CartSVG />
-              <Link href="/contact" className="mt-1 text-bold">
-                Cart
-              </Link>
-            </li>
           </ul>
+          <div className="flex justify-center mt-[-28px]">
+            <CartButton />
+          </div>
           <div className="">
             {session ? (
               <button onClick={() => signOut()} className="hover:text-zinc-400">
@@ -237,10 +231,18 @@ const HomeNavbar = () => {
               </button>
             ) : (
               <>
-                <Link href="/login" className="p-4 hover:text-zinc-400">
+                <Link
+                  href="/login"
+                  onClick={handleNav}
+                  className="p-4 hover:text-zinc-400"
+                >
                   Login
                 </Link>
-                <Link href="/register" className="p-4 hover:text-zinc-400">
+                <Link
+                  href="/register"
+                  onClick={handleNav}
+                  className="p-4 hover:text-zinc-400"
+                >
                   Register
                 </Link>
               </>

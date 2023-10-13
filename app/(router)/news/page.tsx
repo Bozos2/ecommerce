@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { MongoClient } from "mongodb";
 
-import NewsCard from "@/app/components/NewsCard";
-import LargeNewsCard from "@/app/components/LargeNewsCard";
+import NewsCard from "@/app/components/UI/NewsCard";
+import LargeNewsCard from "@/app/components/UI/LargeNewsCard";
 import { Suspense } from "react";
 
 const News = async () => {

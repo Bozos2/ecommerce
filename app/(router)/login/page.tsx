@@ -98,7 +98,7 @@ const Login = () => {
                 </button>
               </div>
               {error && <div className="text-red-400 p-1">{error}</div>}
-              <p className="text-sm mt-6">
+              <p className="text-sm xl:mt-6">
                 Don't have an account?
                 <Link
                   href="/register"

@@ -88,7 +88,6 @@ const cartReducer = (state: DefaultData, action: CartAction) => {
         totalAmount: updatedTotalAmount2,
       };
   }
-  return defaultCartState;
 };
 
 type Children = {
@@ -109,10 +108,6 @@ const CartProvider = ({ children }: Children) => {
     dispatchCartAction({ type: ActionType.REMOVE, id: id });
   };
 
-  const clearCartHandler = () => {
-    dispatchCartAction({ type: ActionType.CLEAR });
-  };
-
   const updateItemAmountHandler = (id: string, newAmount: number) => {
     dispatchCartAction({
       type: ActionType.UPDATE_VALUE,
@@ -126,7 +121,6 @@ const CartProvider = ({ children }: Children) => {
     totalAmount: cartState.totalAmount,
     addItem: addItemToCartHandler,
     removeItem: removeItemFromCartHandler,
-    clearItems: clearCartHandler,
     updateItemAmount: updateItemAmountHandler,
   };
 

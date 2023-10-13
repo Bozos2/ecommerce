@@ -6,7 +6,6 @@ const cartContextStateDefaultValues: CartContextStateType = {
   totalAmount: 0,
   addItem: (item) => {},
   removeItem: (id) => {},
-  clearItems: () => {},
   updateItemAmount: (id, newAmount) => {},
 };
 

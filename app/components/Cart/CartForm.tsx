@@ -13,16 +13,31 @@ const CartForm = () => {
   const cartCtx = useCartContext();
   console.log(cartCtx);
 
+  const shippingCost = 18.0;
+  const vatRate = 0.17;
+
+  const subtotal = cartCtx.totalAmount;
+  const vatAmount = subtotal * vatRate;
+  const totalAmount = subtotal + shippingCost + vatAmount;
+
   const updateProductAmount = (id: string, newAmount: number) => {
     cartCtx.updateItemAmount(id, newAmount);
   };
+
+  const removeItemFromCartHandler = (id: string) => {
+    cartCtx.removeItem(id);
+  };
+
+  if (cartCtx.items.length === 0) {
+    return <h2 className="text-xl text-center">Cart is empty</h2>;
+  }
 
   return (
     <div>
       <div className="border-b-2 pb-4">
         <ul className="flex flex-col gap-4 w-full max-h-[480px] overflow-auto">
           {cartCtx.items.map((item) => (
-            <div className="flex gap-1">
+            <div className="flex gap-1" key={item.id}>
               <div className="w-3/5 ">
                 <Image
                   src={item.src}
@@ -45,14 +60,20 @@ const CartForm = () => {
                   <span className="text-sm sm:text-base text-gray-500">
                     color:
                   </span>
-                  <div className="w-[15px] h-[15px] mt-1.5 ml-1 bg-red-600 rounded-full shadow-xl cursor-pointer"></div>
+                  <div
+                    className="w-[15px] h-[15px] mt-1.5 ml-1  rounded-full shadow-xl cursor-pointer"
+                    style={{ backgroundColor: `${item.color}` }}
+                  ></div>
                 </div>
                 <div className="flex flex-row justify-between">
                   <div className="flex flex-row">
                     <div className="pt-2">
                       <GarbageIcon />
                     </div>
-                    <button className="pt-1 pl-1 text-sm sm:text-base text-gray-500 hover:text-red-500">
+                    <button
+                      onClick={() => removeItemFromCartHandler(item.id)}
+                      className="pt-1 pl-1 text-sm sm:text-base text-gray-500 hover:text-red-500"
+                    >
                       Remove
                     </button>
                   </div>
@@ -72,7 +93,7 @@ const CartForm = () => {
         <div className="border-b-2 pb-4">
           <div className="flex flex-row justify-between py-0.5">
             <h4>Subtotal</h4>
-            <h4>${cartCtx.totalAmount}</h4>
+            <h4>${cartCtx.totalAmount.toFixed(2)}</h4>
           </div>
           <div className="flex flex-row justify-between py-0.5">
             <h4>Shipping</h4>
@@ -80,12 +101,12 @@ const CartForm = () => {
           </div>
           <div className="flex flex-row justify-between py-0.5">
             <h4>VAT (17%)</h4>
-            <h4>$368.99</h4>
+            <h4>${vatAmount.toFixed(2)}</h4>
           </div>
         </div>
         <div className="flex flex-row justify-between border-b-2 py-4 font-semibold text-xl text-black">
           <h2>Total</h2>
-          <h2>{cartCtx.totalAmount}</h2>
+          <h2>${totalAmount.toFixed(2)}</h2>
         </div>
       </div>
       <div className="flex justify-center pt-4">

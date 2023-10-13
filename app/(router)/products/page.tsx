@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
 
-import ProductsCard from "@/app/components/ProductsCard";
+import ProductsCard from "@/app/components/UI/ProductsCard";
 import ProductsNavbar from "@/app/components/ProductsNavbar";
 import { fetchData } from "@/app/lib/fetchData";
 
@@ -21,7 +21,7 @@ const Products = async () => {
             category={data.category}
             subcategory={data.subcategory}
             title={data.title}
-            price={data.price}
+            price={parseFloat(data.price)}
             colors={data.colors}
           />
         ))}

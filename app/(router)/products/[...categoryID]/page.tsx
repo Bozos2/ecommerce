@@ -1,5 +1,5 @@
 import ProductsNavbar from "@/app/components/ProductsNavbar";
-import ProductsCard from "@/app/components/ProductsCard";
+import ProductsCard from "@/app/components/UI/ProductsCard";
 import { fetchData } from "@/app/lib/fetchData";
 
 export default async function Page({
@@ -42,7 +42,7 @@ export default async function Page({
             category={data.category}
             subcategory={data.subcategory}
             title={data.title}
-            price={data.price}
+            price={parseFloat(data.price)}
             colors={data.colors}
           />
         ))}
