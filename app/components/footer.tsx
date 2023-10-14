@@ -83,7 +83,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center  bg-sky-950 w-full">
+      <div className="flex flex-col items-center   bg-sky-950 w-full">
         <div className="flex flex-col justify-center pt-2">
           <label htmlFor="email" className="text-center pb-2">
             Newsletter Subscription
