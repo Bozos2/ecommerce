@@ -20,6 +20,18 @@ export interface ProductProps {
   price: number;
 }
 
+export interface SaleProduct {
+  id: string;
+  src: string;
+  category: string;
+  subcategory: string;
+  title: string;
+  colors: string[];
+  price: number;
+  oldprice: number;
+  percentage: number;
+}
+
 export interface CartItem {
   id: string;
   src: string;

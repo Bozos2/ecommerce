@@ -3,6 +3,7 @@ import { ObjectId } from "mongodb";
 import ProductsCard from "@/app/components/UI/ProductsCard";
 import ProductsNavbar from "@/app/components/ProductsNavbar";
 import { fetchData } from "@/app/lib/fetchData";
+import Link from "next/link";
 
 const Products = async () => {
   const products = await fetchData();

@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Furniture",
+    "subcategory": "Sofas",
+    "title": "Vanx dx sofa",
+    "image": "https://img.freepik.com/free-psd/modern-interior-design-living-room_176382-775.jpg?w=1380&t=st=1697381755~exp=1697382355~hmac=89a5a1d03cbed30ad366a0e00183a2a2bfeb1eea3e55efcc57bd9c5cf6059322",
+    "oldprice": "899.99",
+    "price": "629.99",
+    "percentage": "30",
+    "colors": ["#71717a", "#ef4444", "#06b6d4"]
+  },
+  {
+    "category": "Furniture",
+    "subcategory": "Beds",
+    "title": "Big elegant bed",
+    "image": "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-wardrobe-walk-closet_105762-2158.jpg?w=1380&t=st=1697382926~exp=1697383526~hmac=a2ebf8fe19b52f4e2f1f22a4a0258f4c7978afd65d2610af4591f2748c0731a3",
+    "oldprice": "999.99",
+    "price": "799.99",
+    "percentage": "20",
+    "colors": ["#fef08a", "#6ee7b7", "#818cf8", "#171717"]
+  },
+  {
+    "category": "Bath",
+    "subcategory": "Bath Vanities",
+    "title": "Modern bath vanitie",
+    "image": "https://img.freepik.com/free-photo/minimal-living-room-interior-design-with-leaf-shadow-wall_53876-128645.jpg?w=1380&t=st=1695473034~exp=1695473634~hmac=3c1fcc78fd6512f83706f0c68c3f15be11ae358fcd19aff729e632213a94ef21",
+    "oldprice": "199.99",
+    "price": "99.99",
+    "percentage": "50",
+    "colors": ["#a3a3a3", "#292524"]
+  },
+  {
+    "category": "Lighting",
+    "subcategory": "Table Lamps",
+    "title": "School table lamp",
+    "image": "https://img.freepik.com/free-psd/white-sofa-table_176382-1800.jpg?w=826&t=st=1695473114~exp=1695473714~hmac=577e4caeed9d49eccf5494bdd9270ca70d6d828e1086aaad157be186099f200c",
+    "oldprice": "49.99",
+    "price": "37.50",
+    "percentage": "25",
+    "colors": ["#a8a29e", "#f87171"]
+  },
+  {
+    "category": "Walls",
+    "subcategory": "Wall Art",
+    "title": "Set of wall arts",
+    "image": "https://img.freepik.com/free-vector/watercolor-minimal-landscape-covers_52683-59239.jpg?w=1480&t=st=1697383401~exp=1697384001~hmac=66b491697c21bb0780035829a11171dd1870d919678bc0dc8d348dcf463c9354",
+    "oldprice": "549.99",
+    "price": "485.99",
+    "percentage": "12",
+    "colors": ["#fb923c", "#bef264"]
+  },
+  {
+    "category": "Walls",
+    "subcategory": "Clocks",
+    "title": "Modern clock",
+    "image": "https://img.freepik.com/free-photo/dark-plate-with-chocolate-sticks-form-clock_23-2148340389.jpg?w=826&t=st=1697383650~exp=1697384250~hmac=57c36ceda835e18bd71a6935240e6dd81c0e9539bf38b3d5057ab09cce22d92e",
+    "oldprice": "129.99",
+    "price": "77.99",
+    "percentage": "40",
+    "colors": ["#18181b", "#0f172a"]
+  }
+]
