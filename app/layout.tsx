@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito, Oswald } from "next/font/google";
+import "leaflet/dist/leaflet.css";
 
 import AuthProvider from "./context/AuthProvider";
 import CartProvider from "./context/cart-reducer";

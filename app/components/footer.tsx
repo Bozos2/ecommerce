@@ -73,7 +73,7 @@ const Footer = () => {
             Contact Info
           </h2>
           <p className="text-center font-light text-sm lg:text-base">
-            London 88220
+            Dallas 75246
           </p>
           <p className="font-light text-sm lg:text-base">+123 456789</p>
           <p className="font-light text-sm lg:text-base">+987 654321</p>
