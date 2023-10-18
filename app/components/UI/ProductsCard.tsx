@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import { ProductProps } from "../../types";
 import { useCartContext } from "../../context/cart-reducer";
@@ -20,6 +21,14 @@ const ProductsCard: React.FC<ProductProps> = (props) => {
     });
   };
 
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
   const colorDivs = props.colors.map((color, index) => (
     <div
       key={index}
@@ -31,7 +40,20 @@ const ProductsCard: React.FC<ProductProps> = (props) => {
   ));
 
   return (
-    <div className="flex flex-wrap justify-center m-5 xl:m-6">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        type: "tween",
+        duration: 0.6,
+      }}
+      style={{
+        scale: scaleProgess,
+        opacity: opacityProgess,
+      }}
+      className="flex flex-wrap justify-center m-5 xl:m-6"
+    >
       <div className="flex flex-col  font-nunito min-w-[240px] w-[380px]  h-[510px]  mx-2 shadow-xl bg-slate-200 rounded-xl cursor-pointer transition ease-in duration-500 hover:-translate-y-0.5  hover:scale-110">
         <div className="relative h-2/4">
           <Image
@@ -61,7 +83,7 @@ const ProductsCard: React.FC<ProductProps> = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

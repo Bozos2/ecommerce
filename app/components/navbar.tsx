@@ -36,7 +36,9 @@ const Navbar = () => {
       {!isHomePage ? (
         <header className=" sticky left-0 top-0 w-full z-50">
           <nav className="max-w-full m-auto  flex justify-between items-center p-6 rounded-b-xl shadow-2xl xl:px-24 lg:p-2  text-white bg-sky-700">
-            <h1 className="text-4xl font-bold cursor-pointer">HomeDecor</h1>
+            <Link href="/home" className="text-4xl font-bold cursor-pointer">
+              HomeDecor
+            </Link>
 
             <ul className="hidden lg:flex justify-center">
               <li className="p-6 hover:text-zinc-400">

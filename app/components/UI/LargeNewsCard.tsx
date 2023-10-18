@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 const imageStyle = {
@@ -22,7 +25,12 @@ const LargeNewsCard: React.FC<{
   category: string;
 }> = (props) => {
   return (
-    <div className="relative grid grid-cols-1 sm:grid-cols-2  w-[320px] sm:max-w-[1180px] sm:w-full h-[480px] sm:h-[260px] lg:h-[380px] z-0 mb-4 mx-2 sm:mx-12 xl:mx-0 p-2 border-2 border-gray-300 rounded-lg sm:border-none cursor-pointer transition ease-in duration-500 hover:-translate-y-1  hover:scale-110">
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      className="relative grid grid-cols-1 sm:grid-cols-2  w-[320px] sm:max-w-[1180px] sm:w-full h-[480px] sm:h-[260px] lg:h-[380px] z-0 mb-4 mx-2 sm:mx-12 xl:mx-0 p-2 border-2 border-gray-300 rounded-lg sm:border-none cursor-pointer transition ease-in duration-500 hover:-translate-y-1  hover:scale-110"
+    >
       <div className="relative  h-[220px] lg:h-full">
         <Image
           fill
@@ -63,7 +71,7 @@ const LargeNewsCard: React.FC<{
           {props.category}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

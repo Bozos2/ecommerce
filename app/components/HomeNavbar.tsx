@@ -44,7 +44,9 @@ const HomeNavbar = () => {
       className="fixed left-0 top-0 w-full z-10 rounded-b-xl font-nunito"
     >
       <nav className="max-w-full m-auto  flex justify-between items-center  p-4   xl:px-24 lg:p-2 text-white">
-        <h1 className="text-4xl font-bold cursor-pointer">HomeDecor</h1>
+        <Link href="/home" className="text-4xl font-bold cursor-pointer">
+          HomeDecor
+        </Link>
 
         <ul className="hidden lg:flex justify-center">
           <li className="p-6 hover:text-zinc-400">

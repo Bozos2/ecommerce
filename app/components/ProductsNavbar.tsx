@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import useCategoryState from "../hooks/useCategoryState";
 import RightArrow from "../assets/Arrows/RightArrow";
@@ -38,10 +39,26 @@ const ProductsNavbar = () => {
 
   return (
     <>
-      <nav className="flex justify-center  my-10 font-oswald xl:hidden">
+      <motion.nav
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          type: "tween",
+          duration: 0.6,
+        }}
+        className="flex justify-center  my-10 font-oswald xl:hidden"
+      >
         <MobileProducstNavbar />
-      </nav>
-      <nav className="hidden xl:flex sticky top-36 my-20  font-nunito w-[420px] h-[416px]">
+      </motion.nav>
+      <motion.nav
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          type: "tween",
+          duration: 0.6,
+        }}
+        className="hidden xl:flex sticky top-36 my-20  font-nunito w-[420px] h-[416px]"
+      >
         <ul className="border-2 rounded-xl border-sky-700 divide-y-2 divide-solid divide-sky-700 font-bold">
           <li className="py-2 pr-36 pl-3">
             <Link href="/products" className="flex flex-row items-center gap-8">
@@ -370,7 +387,7 @@ const ProductsNavbar = () => {
             </ul>
           )}
         </ul>
-      </nav>
+      </motion.nav>
     </>
   );
 };

@@ -20,6 +20,7 @@
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.284.0",
     "mongodb": "^6.0.0",

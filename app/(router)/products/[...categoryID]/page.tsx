@@ -36,9 +36,11 @@ const Page = async ({ params }: { params: { categoryID: string[] } }) => {
     .sort((a, b) => a.category.localeCompare(b.category));
 
   return (
-    <section className="flex flex-col  xl:flex-row xl:mx-6 mb-24">
+    <section className="flex flex-col  justify-center xl:flex-row xl:mx-6 mb-24">
       {productID ? (
-        <DetailPage productID={productID} />
+        <div className="sm:my-12">
+          <DetailPage productID={productID} />
+        </div>
       ) : (
         <>
           <div>
