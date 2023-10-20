@@ -26,10 +26,10 @@ const Footer = () => {
         <div className="hidden lg:flex flex-col w-96">
           <h1 className="text-bold text-4xl pb-2">About us</h1>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            tempus, est tincidunt venenatis luctus, lacus sem volutpat arcu, at
-            viverra dolor ipsum in mauris. Cras non neque nulla. Sed vitae erat
-            neque.
+            Founded in 1970, HomeDecor is your go-to for home improvement and
+            design. With five decades of experience, we bring top-notch
+            furnishings and decor to create your dream living space. Explore our
+            online store today.
           </p>
         </div>
         <div className=" flex flex-col ">

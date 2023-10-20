@@ -31,7 +31,11 @@ const NewsCard: React.FC<{
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      className="relative  w-[280px] h-[480px] z-0 mb-4 sm:mb-24 p-2 border-2 border-gray-300 rounded-lg sm:border-none cursor-pointer transition ease-in duration-300 hover:-translate-y-1  hover:scale-110"
+      whileHover={{
+        scale: 1.1,
+        transition: { duration: 0.05 },
+      }}
+      className="relative  w-[280px] h-[480px] z-0 mb-4 sm:mb-24 p-2 border-2 border-gray-300 rounded-lg sm:border-none cursor-pointer transition ease-in duration-300"
     >
       <Image
         src={props.src}
