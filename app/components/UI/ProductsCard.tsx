@@ -3,12 +3,15 @@
 import Image from "next/image";
 import { useState, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useToast } from "@/components/ui/use-toast";
+import { Button } from "@/components/ui/button";
 
 import { ProductProps } from "../../types";
 import { useCartContext } from "../../context/cart-reducer";
 
 const ProductsCard: React.FC<ProductProps> = (props) => {
   const [selectedColor, setSelectedColor] = useState(props.colors[0]);
+  const { toast } = useToast();
   const cartCtx = useCartContext();
   const addToCarthandler = () => {
     cartCtx.addItem({
@@ -69,12 +72,20 @@ const ProductsCard: React.FC<ProductProps> = (props) => {
           <h4 className="text-sky-700 font-bold text-xl">{props.category}</h4>
           <p className="text-sm font-normal">{props.subcategory}</p>
           <h1 className="mt-2 text-2xl font-black">{props.title}</h1>
-          <div className="flex justify-center gap-2 mt-2">{colorDivs}</div>
+          <div
+            onClick={(e) => e.preventDefault()}
+            className="flex justify-center gap-2 mt-2"
+          >
+            {colorDivs}
+          </div>
           <h2 className="mt-2 font-bold text-2xl">{props.price}$</h2>
-          <div className="flex justify-end">
+          <div className="flex justify-end" onClick={(e) => e.preventDefault()}>
             <button
               onClick={() => {
                 addToCarthandler();
+                toast({
+                  description: "Successfully added product to cart!",
+                });
               }}
               className="bg-sky-600 py-2 px-14 mt-6 rounded-xl text-white font-bold hover:border-2 hover:border-sky-600 hover:bg-slate-200 hover:text-sky-600 transition ease-in  duration-500"
             >

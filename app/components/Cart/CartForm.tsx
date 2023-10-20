@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { useSession } from "next-auth/react";
+import { loadStripe } from "@stripe/stripe-js";
 
 import QuantityButton from "./QuantityButton";
 import GarbageIcon from "@/app/assets/CartIcons/GarbageIcon";
@@ -31,6 +33,29 @@ const CartForm = () => {
   if (cartCtx.items.length === 0) {
     return <h2 className="text-xl text-center">Cart is empty</h2>;
   }
+
+  const stripePromise = loadStripe(
+    process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!
+  );
+  const { data: session } = useSession();
+  const handleCheckout = async () => {
+    const stripe = await stripePromise;
+    const response = await fetch("http://localhost:3000/api/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        items: cartCtx.items,
+        email: session?.user?.email,
+      }),
+    });
+    const data = await response.json();
+
+    if (response.ok) {
+      stripe?.redirectToCheckout({ sessionId: data.id });
+    } else {
+      throw new Error("Failed to create Stripe Payment");
+    }
+  };
 
   return (
     <div>
@@ -110,7 +135,10 @@ const CartForm = () => {
         </div>
       </div>
       <div className="flex justify-center pt-4">
-        <button className="py-3 px-6 sm:px-8 bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-lg sm:text-xl tracking-widest">
+        <button
+          onClick={handleCheckout}
+          className="py-3 px-6 sm:px-8 bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-lg sm:text-xl tracking-widest"
+        >
           PROCEED TO CHECKOUT
         </button>
       </div>

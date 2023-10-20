@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito, Oswald } from "next/font/google";
 import "leaflet/dist/leaflet.css";
+import { Toaster } from "@/components/ui/toaster";
 
 import AuthProvider from "./context/AuthProvider";
 import CartProvider from "./context/cart-reducer";
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: Props) {
           <AuthProvider>
             <Navbar />
             <main>{children}</main>
+            <Toaster />
             <Footer />
           </AuthProvider>
         </CartProvider>

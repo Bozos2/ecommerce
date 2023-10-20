@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 import { SaleProduct } from "@/app/types";
 import { useCartContext } from "../../context/cart-reducer";
 
 const SalesCard: React.FC<SaleProduct> = (props) => {
   const [selectedColor, setSelectedColor] = useState(props.colors[0]);
+  const { toast } = useToast();
   const cartCtx = useCartContext();
   const addToCarthandler = () => {
     cartCtx.addItem({
@@ -60,6 +62,9 @@ const SalesCard: React.FC<SaleProduct> = (props) => {
             <button
               onClick={() => {
                 addToCarthandler();
+                toast({
+                  description: "Successfully added product to cart!",
+                });
               }}
               className="bg-sky-600 py-2 px-14 mt-4 rounded-xl text-white font-bold hover:border-2 hover:border-sky-600 hover:bg-slate-200 hover:text-sky-600 transition ease-in  duration-500"
             >
