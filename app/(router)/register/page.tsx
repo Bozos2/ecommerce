@@ -47,10 +47,7 @@ const Register = () => {
 
     if (isValid) {
       try {
-        const apiResponse = await axios.post(
-          "http://localhost:3000/api/auth/signup",
-          data
-        );
+        const apiResponse = await axios.post("api/auth/signup", data);
         if (apiResponse?.data.success) {
           const loginResponse = await loginUser({
             email: data.email,
