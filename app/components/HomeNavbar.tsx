@@ -87,7 +87,7 @@ const HomeNavbar = () => {
                   </Avatar>
                 ) : (
                   <Avatar>
-                    <AvatarImage src={GuestOther.src} Mobile />
+                    <AvatarImage src={GuestOther.src} />
                   </Avatar>
                 )}
               </div>
