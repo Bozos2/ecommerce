@@ -14,7 +14,7 @@ const Page = async ({ params }: { params: { categoryID: string[] } }) => {
   );
 
   const sortedProducts = products
-    .filter((product) => {
+    .filter((product: any) => {
       const productCategory = product.category.toLowerCase();
       const productSubcategory = product.subcategory.toLowerCase();
       const productDetail = product._id.toString();
@@ -33,10 +33,10 @@ const Page = async ({ params }: { params: { categoryID: string[] } }) => {
         return productCategory === category;
       }
     })
-    .sort((a, b) => a.category.localeCompare(b.category));
+    .sort((a: any, b: any) => a.category.localeCompare(b.category));
 
   return (
-    <section className="flex flex-col  justify-center xl:flex-row xl:mx-6 mb-24">
+    <section className="flex flex-col  justify-center xl:flex-row xl:px-6 pb-24 bg-zinc-200">
       {productID ? (
         <div className="sm:my-12">
           <DetailPage productID={productID} />
@@ -47,7 +47,7 @@ const Page = async ({ params }: { params: { categoryID: string[] } }) => {
             <ProductsNavbar />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 xl:mt-10">
-            {sortedProducts.map((data) => (
+            {sortedProducts.map((data: any) => (
               <Link
                 key={data._id.toString()}
                 href="/[...categoryID]"

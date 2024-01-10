@@ -4,8 +4,13 @@ import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import Avatar from "react-avatar";
 import { useSession, signOut } from "next-auth/react";
+import {
+  Avatar,
+  AvatarImage,
+  AvatarMobile,
+  AvatarImageMobile,
+} from "@/components/ui/avatar";
 
 import HomeSVG from "../assets/NavbarIcons/Home";
 import NewsSVG from "../assets/NavbarIcons/News";
@@ -36,7 +41,10 @@ const Navbar = () => {
       {!isHomePage ? (
         <header className=" sticky left-0 top-0 w-full z-50">
           <nav className="max-w-full m-auto  flex justify-between items-center p-6 rounded-b-xl shadow-2xl xl:px-24 lg:p-2  text-white bg-sky-700">
-            <Link href="/home" className="text-4xl font-bold cursor-pointer">
+            <Link
+              href="/home"
+              className="text-4xl font-bold cursor-pointer sm:tracking-wider"
+            >
               HomeDecor
             </Link>
 
@@ -65,26 +73,17 @@ const Navbar = () => {
                 <div className="flex flex-row">
                   <div className="mt-1">
                     {session?.user?.gender === "Male" ? (
-                      <Avatar
-                        size="40"
-                        round="120px"
-                        src={Male.src}
-                        style={{ cursor: "pointer" }}
-                      />
+                      <Avatar>
+                        <AvatarImage src={Male.src} />
+                      </Avatar>
                     ) : session?.user?.gender === "Female" ? (
-                      <Avatar
-                        size="40"
-                        round="120px"
-                        src={Female.src}
-                        style={{ cursor: "pointer" }}
-                      />
+                      <Avatar>
+                        <AvatarImage src={Female.src} />
+                      </Avatar>
                     ) : (
-                      <Avatar
-                        size="40"
-                        round="120px"
-                        src={GuestOther.src}
-                        style={{ cursor: "pointer" }}
-                      />
+                      <Avatar>
+                        <AvatarImage src={GuestOther.src} />{" "}
+                      </Avatar>
                     )}
                   </div>
                   <h4 className="p-3 font-nunito cursor-pointer hover:underline">
@@ -126,44 +125,36 @@ const Navbar = () => {
                   <div>
                     {session?.user?.gender === "Male" ? (
                       <>
-                        <Avatar
-                          size="110"
-                          round="120px"
-                          src={Male.src}
-                          style={{ cursor: "pointer" }}
-                        />
+                        <AvatarMobile>
+                          <AvatarImageMobile src={Male.src} />
+                        </AvatarMobile>
+
                         <h4 className="pt-3">{session?.user?.fullName}</h4>
                       </>
                     ) : session?.user?.gender === "Female" ? (
                       <>
-                        <Avatar
-                          size="110"
-                          round="120px"
-                          src={Female.src}
-                          style={{ cursor: "pointer" }}
-                        />
+                        <AvatarMobile>
+                          <AvatarImageMobile src={Female.src} />
+                        </AvatarMobile>
+
                         <h4 className="pt-3">{session?.user?.fullName}</h4>
                       </>
                     ) : (
                       <>
-                        <Avatar
-                          size="110"
-                          round="120px"
-                          src={GuestOther.src}
-                          style={{ cursor: "pointer" }}
-                        />
+                        <AvatarMobile>
+                          <AvatarImageMobile src={GuestOther.src} />
+                        </AvatarMobile>
+
                         <h4 className="pt-3">{session?.user?.fullName}</h4>
                       </>
                     )}
                   </div>
                 ) : (
                   <>
-                    <Avatar
-                      size="110"
-                      round="120px"
-                      src={GuestOther.src}
-                      style={{ cursor: "pointer" }}
-                    />
+                    <AvatarMobile>
+                      <AvatarImageMobile src={GuestOther.src} />
+                    </AvatarMobile>
+
                     <h4 className="pt-3">Guest</h4>
                   </>
                 )}

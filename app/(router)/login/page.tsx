@@ -44,7 +44,7 @@ const Login = () => {
   };
 
   return (
-    <div className=" w-full  font-nunito">
+    <div className=" w-full  font-nunito bg-zinc-200">
       <div className="flex flex-col xl:flex-row gap-12 mb-24 mt-6 xl:mt-0 xl:mb-0 xl:mx-4 2xl:mx-36  xl:gap-0 xl:justify-around items-center xl:h-screen">
         <div className="max-w-[640px]">
           <h1 className="hidden xl:block xl:text-6xl xl:font-extrabold xl:text-sky-600">
@@ -55,7 +55,7 @@ const Login = () => {
             user account.
           </p>
         </div>
-        <div className="flex flex-row max-w-[640px] xl:w-full h-[360px] xl:h-[410px] pr-8 pt-8 rounded-xl shadow-[0_10px_20px_rgba(135,_206,_235,_0.9)]">
+        <div className="flex flex-row max-w-[640px] xl:w-full h-[360px] xl:h-[410px] pr-8 pt-8 bg-white rounded-xl shadow-[0_10px_20px_rgba(135,_206,_235,_0.9)]">
           <div className="hidden xl:flex">
             <LoginSVG />
           </div>

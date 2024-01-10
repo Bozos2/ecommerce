@@ -7,12 +7,12 @@ const Products = async () => {
   const products = await fetchData();
 
   return (
-    <section className="flex flex-col  xl:flex-row xl:mx-6 mb-24">
+    <section className="flex flex-col  xl:flex-row xl:px-6 pb-24 bg-zinc-200">
       <div>
         <ProductsNavbar />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 xl:mt-10">
-        {products.map((data) => (
+        {products.map((data: any) => (
           <Link
             key={data._id.toString()}
             href="/products/[...categoryID]"

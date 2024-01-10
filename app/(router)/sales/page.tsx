@@ -10,7 +10,7 @@ const Sales = async () => {
   const products = await fetchSalesData();
 
   return (
-    <div className="flex flex-col  items-center my-9  sm:my-16">
+    <div className="flex flex-col  items-center py-9  sm:py-16 bg-zinc-200">
       <h2 className="text-4xl lg:text-7xl text-center font-bold text-sky-700 font-oswald tracking-wide sm:tracking-widest mx-4">
         Autumn Sale
       </h2>

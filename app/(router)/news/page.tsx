@@ -12,7 +12,7 @@ const News = async () => {
 
   return (
     <Suspense>
-      <div className="flex justify-center">
+      <div className="flex justify-center bg-zinc-200">
         <div className="flex  flex-col justify-center  items-center max-w-[1200px]">
           <div className="flex flex-col items-center justify-center gap-4  sm:w-full  h-44  m-4 rounded-lg bg-zinc-300">
             <h4 className="text-base pt-2 sm:text-lg font-bold">
@@ -20,9 +20,9 @@ const News = async () => {
             </h4>
             <h2 className="text-center p-2 text-lg sm:text-xl sm:px-24 font-bold">
               Discover a world of{" "}
-              <span className="text-sky-600">inspiration</span> 💡,
-              <span className="text-sky-600">knowledge</span> 📚, and
-              <span className="text-sky-600"> entertainment</span> 🎭 that will
+              <span className="text-sky-700">inspiration</span> 💡,
+              <span className="text-sky-700">knowledge</span> 📚, and
+              <span className="text-sky-700"> entertainment</span> 🎭 that will
               keep you informed and engaged.
             </h2>
           </div>

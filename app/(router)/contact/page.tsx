@@ -8,7 +8,7 @@ const DynamicMap = dynamic(() => import("../../components/Map"), {
 
 const Contact = () => {
   return (
-    <section>
+    <section className="bg-zinc-200">
       <div className="relative z-0 shadow-2xl">
         <DynamicMap />
       </div>
@@ -20,7 +20,7 @@ const Contact = () => {
           <span className="font-bold">Adress:</span> Live Oak Street{" "}
         </h2>
       </div>
-      <div className="flex justify-center my-24">
+      <div className="flex justify-center py-24">
         <ContactCards />
       </div>
     </section>
