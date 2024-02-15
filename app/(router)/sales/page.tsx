@@ -12,7 +12,7 @@ const Sales = async () => {
   return (
     <div className="flex flex-col  items-center py-9  sm:py-16 bg-zinc-200">
       <h2 className="text-4xl lg:text-7xl text-center font-bold text-sky-700 font-oswald tracking-wide sm:tracking-widest mx-4">
-        Autumn Sale
+        New Sale
       </h2>
       <h4 className="text-xl lg:text-3xl font-semibold text-sky-700 font-oswald mt-6 text-center mx-4">
         Best sales, save up to 50%! Sales only for a limited time! Be Quick!

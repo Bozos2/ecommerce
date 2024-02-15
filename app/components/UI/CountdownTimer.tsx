@@ -10,7 +10,7 @@ const Countdown = () => {
   });
 
   const calculateTimeLeft = () => {
-    const targetDate = new Date("2023-12-21T00:00:00").getTime();
+    const targetDate = new Date("2024-06-21T00:00:00").getTime();
     const now = new Date().getTime();
     const timeDifference = targetDate - now;
 
